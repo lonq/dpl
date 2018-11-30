@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keyword" content=" " />
+		<meta name="description" content=" " />
+		<meta name="author" content="lonq" />
+		<meta name="copyright" content="eeduol.com" />
+		<title> 圈圈作业 - 网站设计样例库 </title>
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="plugins/Font-Awesome-master/css/font-awesome.min.css" rel="stylesheet" />
+		<!--[if IE 7]>
+		<link href="plugins/Font-Awesome-master/css/font-awesome-ie7.min.css" rel="stylesheet" />
+		<![endif]-->
+		<link href="css/normalize.min.css" rel="stylesheet" />
+		<link href="css/global.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/style-app.css" rel="stylesheet" />
+		<link href="plugins/star-rating/css/star-rating.min.css" rel="stylesheet" />
+		<link href="plugins/jquery-nestable/jquery.nestable.css" rel="stylesheet" />
+		<script src="plugins/modernizr.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="plugins/html5shiv/html5shiv.min.js"></script>
+		<script src="plugins/html5shiv/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- start 顶部 -->
+		<div id="header" class="navbar navbar-default" role="navigation">
+		</div>
+		<!-- end 顶部 -->
+		<!-- start 面包屑 -->
+		<div class="container-full">
+			<div class="container">
+				<ol class="text-muted breadcrumb">
+					<span>您现在的位置：</span>
+					<li><a href="index.html">首页</a></li>
+					<li class="active">分类</li>
+				</ol>
+			</div>
+		</div><!-- end 面包屑 -->
+		<div class="container">
+			<div class="row">
+				<div class="panel panel-default">
+					<h3 class="panel-heading">
+						分类
+					</h3>
+
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-5">
+								<!-- start form -->
+								<form action="#" class="form-horizontal" id="mainForm" role="form">
+							
+									<div class="form-group">
+										<label for="username" class="control-label col-lg-2">标题：</label>
+										<div class="col-lg-10">
+											<input class="form-control" type="text" id="title" name="title" placeholder="请输入标题">
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label for="username" class="control-label col-lg-2">别名：</label>
+										<div class="col-lg-10">
+											<input class="form-control" type="text" id="subTitle" name="subTitle" placeholder="请输入别名">
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label for="username" class="control-label col-lg-2">网址：</label>
+										<div class="col-lg-10">
+											<input class="form-control" type="text" id="url" name="url" placeholder="请输入网址">
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label for="remark" class="control-label col-lg-2">备注：</label>
+										<div class="col-lg-10">
+											<textarea class="form-control" id="remark" name="remark" placeholder="请输入备注"></textarea>
+										</div>
+									</div>
+									
+									<div class="form-group ex-form">
+										<div class="col-lg-offset-2 col-lg-10">
+											<input id="okBtn" name="okBtn" type="submit" class="btn btn-primary" value="确定">
+											<input id="reset" name="reset" type="reset" class="btn btn-default" value="重新填写">
+										</div>
+									</div>
+									
+								</form><!-- end form -->
+					
+							</div>
+							<div class="col-md-7">
+								<div class="row">
+									<div class="col-md-7"><p>提示：点击“<i class="fa fa-navicon"></i>”拖动改变排序，点击“<i class="fa fa-pencil"></i>”修改该分类的内容。</p></div>
+									<div class="col-md-5 text-right">
+										<div id="nestable-menu" class="btn-group" role="group" aria-label="...">
+											<button class="btn btn-default" type="button" data-action="expand-all">展开</button>
+											<button class="btn btn-default" type="button" data-action="collapse-all">收缩</button>
+										</div>
+									</div>
+								</div>
+								<div class="nestable-lists clearfix">
+									<div class="dd" id="nestable">
+										<ol class="dd-list">
+											<li class="dd-item dd3-item" data-id="1">
+												<dl class="no-margin">
+													<dt><div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Item 1</div><a class="dd3-expand" data-toggle="collapse" data-parent="#nestable" href="#collapse1"><i class="fa fa-pencil"></i></a></dt>
+													<dd id="collapse1" class="collapse clearfix">
+														<form action="#" class="form-horizontal" id="mainForm" role="form">
+														<div class="form-group">
+															<label for="username" class="control-label col-lg-2">标题：</label>
+															<div class="col-lg-10">
+																<input class="form-control" type="text" id="title" name="title" placeholder="请输入标题">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label for="username" class="control-label col-lg-2">别名：</label>
+															<div class="col-lg-10">
+																<input class="form-control" type="text" id="subTitle" name="subTitle" placeholder="请输入别名">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label for="username" class="control-label col-lg-2">网址：</label>
+															<div class="col-lg-10">
+																<input class="form-control" type="text" id="url" name="url" placeholder="请输入网址">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label for="remark" class="control-label col-lg-2">备注：</label>
+															<div class="col-lg-10">
+																<textarea class="form-control" id="remark" name="remark" placeholder="请输入备注"></textarea>
+															</div>
+														</div>
+														
+														<div class="form-group ex-form">
+															<div class="col-lg-offset-2 col-lg-10">
+																<input id="okBtn" name="okBtn" type="submit" class="btn btn-primary" value="确定">
+																<input id="reset" name="reset" type="reset" class="btn btn-default" value="重新填写">
+																<input id="" name="" type="button" class="btn btn-default" value="上移" disabled>
+																<input id="" name="" type="button" class="btn btn-default" value="下移">
+															</div>
+														</div>
+														</form>
+													</dd>
+												</dl>
+											</li>
+											<li class="dd-item dd3-item" data-id="2">
+												<dl class="no-margin">
+													<dt><div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Item 2</div><a class="dd3-expand" data-toggle="collapse" data-parent="#nestable" href="#collapse2"><i class="fa fa-pencil"></i></a></dt>
+													<dd id="collapse2" class="collapse">1</dd>
+												</dl>
+											</li>
+											<li class="dd-item dd3-item" data-id="3">
+												<div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Item 3</div><div class="dd3-expand"><i class="fa fa-pencil"></i></div>
+												<ol class="dd-list">
+													<li class="dd-item dd3-item" data-id="4">
+														<div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Item 4</div><div class="dd3-expand"><i class="fa fa-pencil"></i></div>
+													</li>
+													<li class="dd-item dd3-item" data-id="5">
+														<div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Item 5</div><div class="dd3-expand"><i class="fa fa-pencil"></i></div>
+													</li>
+													<li class="dd-item dd3-item" data-id="6">
+														<div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Item 6</div><div class="dd3-expand"><i class="fa fa-pencil"></i></div>
+													</li>
+												</ol>
+											</li>
+										</ol>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel-footer text-center">
+						<input id=" " name=" " type="submit" class="btn btn-primary btn-lg" value="保存">
+					</div>
+
+				</div>
+			</div>
+		</div><!-- end 主体 -->
+		<!-- start 底部 -->
+		<div id="footer" class="container-footer">
+		</div><!-- end 底部 -->
+
+		<script src="plugins/jquery.min.js"></script>
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="plugins/wInput.js"></script>
+		<script src="plugins/jquery.scrollUp.min.js"></script>
+		<script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="plugins/jquery-validation/dist/localization/messages_zh.min.js"></script>
+		<script src="plugins/jquery-nestable/jquery.nestable.js"></script>
+		<script src="plugins/common.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+
+		$(document).ready(function(){
+			//兼容表单控件提示，模拟placeholder
+			$("input:text, input:password, textarea").wInput();
+			//定义表单相关类
+			var controlWidth = "col-lg-8";				//表单控件的类（宽度）
+			var controlTipsWidth = "col-lg-4";		//表单提示的类（宽度）
+
+			var formID = "#mainForm";							//表单ID名
+			var controlRow = ".form-group:not('.ex-form')";				//表单控件行（包括label）的父容器
+			var controlWrap = ".col-lg-10";				//表单控件（不包括label）的直接父容器，与标签的宽度配合，例：".col-lg-2"
+			var $form = $(""+ formID +"");				//表单对象
+			
+			//设置表单各元素的宽度及样式，如果加载缓慢，出现页面布局紊乱，请手动添加类
+			$form.find(""+ controlRow +" "+ controlWrap +"" ).each(function(){
+				$(this).children().addClass(controlWidth);
+			});
+			//表单验证
+			var $validator = $form.validate({
+				errorClass: "help-block " + controlTipsWidth,
+				errorElement: "span",
+				errorPlacement: function(error, element) {
+					error.appendTo(element.parents(controlWrap));	//插入表单提示
+				},
+				highlight: function(element, errorClass, validClass) {
+					$(element).parents(""+ controlRow +"").removeClass("has-success").addClass("has-error");	//错误高亮
+				},
+				unhighlight: function(element, errorClass, validClass) {
+					$(element).parents(""+ controlRow +"").removeClass("has-error").addClass("has-success");	//成功高亮
+				},
+				success: function(label) {
+					label.text("输入正确！");
+				},
+				rules: {
+					title: {
+						required: true,
+						minlength: 2,
+						maxlength: 255
+					},
+					subTitle: {
+						required: true,
+						minlength: 2,
+						maxlength: 50
+					},
+					url: {
+						required: true
+					}
+				},
+				messages: {
+					title: {
+						required: "请输入标题",
+						minlength: "最少两个字符"
+					},
+					subTitle: {
+						required: "请输入别名",
+						minlength: "最少两个字符"
+					},
+					url: {
+						required: "请输入网址"
+					}
+				}
+			});
+			//表单重置
+			$("input[type='reset'], .reset").click(function() {
+				$validator.resetForm();
+				$form.find(""+ controlRow +"").removeClass("has-error has-success");
+			});
+			
+			$('#nestable-menu').on('click', function(e) {
+				var target = $(e.target),
+					action = target.data('action');
+				if (action === 'expand-all') {
+					$('.dd').nestable('expandAll');
+				}
+				if (action === 'collapse-all') {
+					$('.dd').nestable('collapseAll');
+				}
+			});
+			
+			$('#nestable').nestable();
+	
+	
+
+		});
+		//]]>
+		</script>
+	</body>
+</html>

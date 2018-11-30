@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>DangDang - Design Pattern Library</title>
+     
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="version" content="1.0" />
+    <meta name="copyright" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This file is part of a site template for sale at ThemeForest.net.
+         See: http://themeforest.net/user/ddstudios/portfolio
+         Copyright 2009 Dany Duchaine <ddwebstudios@hotmail.com> -->
+    
+    <!-- CSS-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- //CSS -->
+	
+	<!-- Javascript-->
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>	
+	 
+	<script type="text/javascript">
+    	$(function(){
+			$('#blog_sidebar').load('sidebar.html');		
+		});		
+    
+    </script>
+
+	<!-- Javascript-->
+
+</head>
+<!-- // head -->
+
+<!-- Body -->
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+	
+	</div>
+	<!-- // Header -->
+
+	<!-- Top text -->
+	<div id="text_wrap">
+		<div id="top_text_sub">	
+			<div class="title">
+				<h1><a href="index.html">DANGDANG DPL</a></h1>
+		  </div>
+			<div class="description">
+				<p>UI TEAM Design Pattern Library</p>
+			</div> 
+		</div>
+	</div>
+	<!-- // Top text -->
+		
+	<!-- Content wrap -->	
+	<div id="content_wrap">
+		
+		<!-- Top content -->
+		<div id="blog_content">
+		
+		<!-- Left content -->
+		<div id="left_content_about_blog">
+			<div class="blog_post">
+				<h2><a class="girds_title" href="#"><strong>Filter</strong></a></h2>
+              	<div class="girds_line1"></div>
+                <h3 class="text_title">&middot; note</h3>
+                <p class="text_p" ><span class="text_bold">demo</span></p>
+                
+					<div style="padding:30px 0;width:560px;overflow:hidden; position: relative;">	
+                    	<div class="filterbar">
+							<div class="filter_panel clearfix">	
+								<div class="btn_filter">
+            						<span class="search_tip">排序:</span>			                 
+									<a title="默认排序" class="active" href="#"><span class="text">默认排序</span></a>
+			 						<a title="销量由高到低" href="#"><span class="text">销 量</span><span class="arrow down"></span></a>
+             						<a href="#"><span title="评论数由多到少" class="text">评论数</span><span class="arrow down"></span></a>
+             						<a href="#"><span title="价格由低到高" class="text">价 格</span><span class="arrow up"></span></a>
+             						<a href="#"><span title="出版时间降序" class="text">出版时间</span><span class="arrow down"></span></a>								 </div>			            
+        					 <div class="page_Simplified clearfix">		         	
+								 	<a href="#" class="nextpage imageElement" title="下一页">下一页</a>
+								 	<!-- <a title="下一页" class="nextpage eof imageElement" href="#">下一页</a> -->
+								 	<span>2&nbsp;/&nbsp;100</span>						
+         						 	<a href="#" class="prevpage imageElement" title="上一页">上一页</a>
+         						 	<!--<a title="上一页" class="prevpage bof imageElement" href="#">上一页</a>-->
+							  </div>		
+        					  <div class="check_filter clearfix">            	
+								  	<span class="checkitem">筛选：</span>
+									<div class="checkitem"><input type="checkbox" id="cx"><label for="cx" title="促销">促&nbsp;&nbsp;销</label></div>											
+									<div class="checkitem"><input type="checkbox" id="yh"><label for="yh" title="只显示有货">只显示有货</label></div>						
+                                    <div class="clear"></div>
+							   </div>				
+						    </div>	
+						 </div>
+			  </div>
+						
+					<h3 class="text_title">&middot; html/css demo</h3>
+	           		<div class="goods_code">
+			           	<dl>
+							<dt>HTML:</dt>						
+							<dd>
+								<pre>
+&lt;div class="filterbar"&gt;
+	&lt;div class="filter_panel clearfix"&gt;	
+		&lt;div class="btn_filter"&gt;
+			&lt;span class="search_tip"&gt;排序:&lt;/span&gt;			                 
+			&lt;a title="默认排序" class="active" href="#"&gt;&lt;span class="text"&gt;默认排序&lt;/span&gt;&lt;/a&gt;
+			&lt;a title="销量由高到低" href="#"&gt;&lt;span class="text"&gt;销 量&lt;/span&gt;&lt;span class="arrow down"&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;a href="#"&gt;&lt;span title="评论数由多到少" class="text"&gt;评论数&lt;/span&gt;&lt;span class="arrow down"&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;a href="#"&gt;&lt;span title="价格由低到高" class="text"&gt;价 格&lt;/span&gt;&lt;span class="arrow up"&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;a href="#"&gt;&lt;span title="出版时间降序" class="text"&gt;出版时间&lt;/span&gt;&lt;span class="arrow down"&gt;&lt;/span&gt;&lt;/a&gt;								
+		&lt;/div&gt;			            
+		&lt;div class="page_Simplified clearfix"&gt;		         	
+			&lt;a href="#" class="nextpage imageElement" title="下一页"&gt;下一页&lt;/a&gt;
+			&lt;!-- &lt;a title="下一页" class="nextpage eof imageElement" href="#"&gt;下一页&lt;/a&gt; --&gt;
+			&lt;span&gt;2&nbsp;/&nbsp;100&lt;/span&gt;						
+			&lt;a href="#" class="prevpage imageElement" title="上一页"&gt;上一页&lt;/a&gt;
+			&lt;!--&lt;a title="上一页" class="prevpage bof imageElement" href="#"&gt;上一页&lt;/a&gt;--&gt;
+		&lt;/div&gt;		
+		&lt;div class="check_filter clearfix"&gt;            	
+			&lt;span class="checkitem"&gt;筛选：&lt;/span&gt;
+			&lt;div class="checkitem"&gt;&lt;input type="checkbox" id="cx"&gt;&lt;label for="cx" title="促销"&gt;促&nbsp;&nbsp;销&lt;/label&gt;&lt;/div&gt;											
+			&lt;div class="checkitem"&gt;&lt;input type="checkbox" id="yh"&gt;&lt;label for="yh" title="只显示有货"&gt;只显示有货&lt;/label&gt;&lt;/div&gt;						
+			&lt;div class="clear"&gt;&lt;/div&gt;
+		&lt;/div&gt;				
+	&lt;/div&gt;	
+&lt;/div&gt;
+
+	             				</pre>
+						</dd>						
+			           	<dt>CSS:</dt>
+						<dd>
+							<pre>
+/*filter*/
+
+/*control panel*/
+
+.filterbar {background:url(../images/filter/filterbar.png) repeat-x 0 -92px;border:1px solid #f99439;border-top-width:2px;border-bottom-color:#c3c3c3;color:#404040;cursor:default;font:12px/18px "\5b8b\4f53",Arial;height:38px; oeverflow: hidden; position:relative;width:758px;}
+.filterbar a{ text-decoration:none; color:#1a66b3; }
+.filterbar a:hover{text-decoration:underline}
+.filterbar .border {background:url(../images/filter/filterbar.png) no-repeat;height:41px;position:absolute;top:-2px;width:2px;oeverflow: hidden;}
+.filterbar .filter_panel {padding:7px 8px;height:23px;}
+.filterbar .btn_filter {float:left;}
+.filterbar .btn_filter .search_tip {float:left;height:18px;overflow:hidden;padding:3px 0 2px;padding:4px 0 1px\9;}
+.filterbar .btn_filter a {background:url(../images/filter/filterbar.png) no-repeat right 0;float:left;height:23px;margin: 0 3px;padding-right:6px;} 
+.filterbar .btn_filter a .text{background:url(../images/filter/filterbar.png) no-repeat -93px -46px;color:#666;cursor:pointer;float:left;height:18px;overflow:hidden;padding:3px 0 2px 7px;padding:4px 0 1px 7px\9;oeverflow: hidden;}
+.filterbar .btn_filter a .arrow {cursor:pointer;float:left;height:23px;margin:0 0 0 3px;width:7px;}
+.filterbar .btn_filter a .down {background:url(../images/filter/filterbar.png) no-repeat 0 -46px;}
+.filterbar .btn_filter a .up {background:url(../images/filter/filterbar.png) no-repeat -10px -46px;} 
+.filterbar .btn_filter a:hover {background:url(../images/filter/filterbar.png) no-repeat right -23px;text-decoration:none;} 
+.filterbar .btn_filter a:hover .text{background:url(../images/filter/filterbar.png) no-repeat -93px -69px;color:#007130;}
+.filterbar .btn_filter a.active,.filterbar .btn_filter a.active:hover {background:url(../images/filter/filterbar.png) no-repeat right -23px;color:#404040;cursor:default;}  
+.filterbar .btn_filter a.active .text,.filterbar .btn_filter a.active:hover .text {background:url(../images/filter/filterbar.png) no-repeat -93px -69px;color:#404040;cursor:default;}
+.filterbar .btn_filter a:hover .down,.filterbar .btn_filter a.active .down{background:url(../images/filter/filterbar.png) no-repeat 0 -69px;}
+.filterbar .btn_filter a:hover .up,.filterbar .btn_filter a.active .up {background:url(../images/filter/filterbar.png) no-repeat -10px -69px;} 
+.filterbar .page_Simplified {float:right;overflow:hidden;padding-top:3px;width:114px;oeverflow: hidden;}
+.filterbar .page_Simplified span {color:#404040;float:right;font-weight:bold;font-family:Arial;height:18px;padding:0 5px;oeverflow: hidden;}
+.filterbar .page_Simplified a {background:url(../images/filter/filterbar.png) no-repeat;float:right;height:18px;line-height:54px;width:18px;oeverflow: hidden;}
+.filterbar .page_Simplified a.prevpage {background-position:-20px -46px;}
+.filterbar .page_Simplified a.nextpage {background-position:-40px -46px;}
+.filterbar .page_Simplified a.bof {background-position:-20px -65px;}
+.filterbar .page_Simplified a.eof {background-position:-40px -65px;}
+.filterbar .check_filter {float:right;height:23px;overflow:hidden;}
+.filterbar .check_filter .checkitem {float:left;height:18px;padding:3px 0 2px;position:relative;padding:4px 0 1px\9;}
+.filterbar .check_filter .checkitem input {display:inline-block;height:18px;margin:0;padding:0;left:0;position:absolute;top:3px;}
+.filterbar .check_filter .checkitem label {display:inline-block;height:18px;margin:0 25px 0 20px;}
+								
+							</pre>
+						</dd>
+					</dl>
+           		</div> 
+          </div>
+		</div>
+		
+		<!-- // Left content -->
+		
+		<!-- Sidebar -->
+		<div id="blog_sidebar"></div>
+		<!-- //Sidebar -->
+		
+		</div>
+		<!-- // Top content -->
+		
+	</div>
+	<!-- // Content wrap -->
+		
+	<!-- Dark Footer -->
+	<div id="dark_footer_wrap">
+		<div id="dark_footer"></div>
+	</div>
+	<!-- // Dark Footer -->
+		
+	<!-- Light Footer -->
+		<div id="light_footer_wrapper">
+			<div id="light_footer">
+				<h4 style="float: left;">© 2010 DANGDANG  |  UI DESIGN TEAM </h4>
+			</div>
+		</div>
+		<!-- // Light Footer -->
+		
+</body>
+<!-- // Body -->
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>DangDang - Design Pattern Library</title>
+       
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="version" content="1.0" />
+    <meta name="copyright" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This file is part of a site template for sale at ThemeForest.net.
+         See: http://themeforest.net/user/ddstudios/portfolio
+         Copyright 2009 Dany Duchaine <ddwebstudios@hotmail.com> -->
+    
+    <!-- CSS-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- //CSS -->
+	
+	<!-- Javascript-->
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>
+	<script type="text/javascript">
+    	$(function(){
+			$('#blog_sidebar').load('sidebar.html');		
+		});
+		    
+    </script>
+
+	<!-- Javascript-->
+
+</head>
+<!-- // head -->
+
+<!-- Body -->
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+	
+	</div>
+	<!-- // Header -->
+
+	<!-- Top text -->
+	<div id="text_wrap">
+		<div id="top_text_sub">	
+			<div class="title">
+				<h1><a href="index.html">DANGDANG DPL</a></h1>
+		  </div>
+			<div class="description">
+				<p>UI TEAM Design Pattern Library</p>
+			</div> 
+		</div>
+	</div>
+	<!-- // Top text -->
+		
+	<!-- Content wrap -->	
+	<div id="content_wrap">
+		
+		<!-- Top content -->
+		<div id="blog_content">
+		
+		<!-- Left content -->
+		<div id="left_content_about_blog">
+			<div class="blog_post">
+				<h2><a class="girds_title" href="#">Popup</a></h2>
+                <div class="girds_line1"></div>
+				<h3 class="text_title">&middot; demo</h3>
+				
+				<div class="popup_wrap">
+					<div class="popup">
+						<div class="popup_title">
+						  <h2>订单 1234567890 收货反馈</h2><a href="#" class="close" title="关闭">关闭</a>
+						</div>
+						<div class="popup_main">
+						  <h3 class="icon_success status2"><i></i><span>提交成功</span></h3>
+						  <p class="tips">温馨提示：此订单的商品积分将在15天退换货期后计入您的帐户。</p>
+						  <div class="popup_btn"><button>关闭窗口</button></div>
+						</div> 
+					</div>
+				</div>
+							
+				<h3 class="text_title">&middot; html/css demo</h3>
+           <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;div class="popup_wrap"&gt;
+  &lt;div class="popup"&gt;
+	&lt;div class="popup_title"&gt;
+	  &lt;h2&gt;订单 1234567890 收货反馈&lt;/h2&gt;&lt;a href="#" class="close" title="关闭"&gt;关闭&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class="popup_main"&gt;
+	  &lt;h3 class="icon_success status2"&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;提交成功&lt;/span&gt;&lt;/h3&gt;
+	  &lt;p class="tips"&gt;温馨提示：此订单的商品积分将在15天退换货期后计入您的帐户。&lt;/p&gt;
+	  &lt;div class="popup_btn"&gt;&lt;button&gt;关闭窗口&lt;/button&gt;&lt;/div&gt;
+	&lt;/div&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+/*popup */
+.popup_wrap{width:425px; padding:10px; background:url(../images/popup/bg_popup.png) repeat 0 0;}
+.popup_wrap .popup{width:423px; border:1px solid #a4d7ca; background-color:#fff; height:237px;}
+.popup .popup_title{position:relative; width:405px; height:27px; padding:1px 0 0 18px; background:url(../images/popup/bg_myddorder.gif) repeat-x 0 -80px;}
+.popup .popup_title h2{color:#404040;font:bold 14px/27px "\5b8b\4f53";}
+.popup .popup_title .close{position:absolute; right:8px; top:7px; overflow:hidden; width:14px; height:14px; background:url(../images/popup/pic_myddorder.gif) no-repeat -100px -280px; font-size:0; line-height:0; text-indent:-9999px;}
+.popup .popup_main{width:348px; margin:0 auto; text-align:center;}
+.popup h3{width:348px;color:#404040;}
+.popup h3 i{display:inline-block; width:32px; height:52px; vertical-align:top;}
+.popup h3 span{display:inline-block; margin:6px 0 0 14px; font:bold 14px/27px "\5b8b\4f53";}
+.popup .icon_success i{background:url(../images/popup/pic_myddorder.gif) no-repeat -50px -220px;}
+.popup .popup_main .status2{margin-top:35px; width:338px; margin-right:10px;}
+.popup .popup_main .tips{width:348px; color:#878787; font:12px/21px "\5b8b\4f53"; text-align:left;}
+.popup .popup_btn{width:348px; margin:20px 0 30px 0;}
+.popup .popup_btn button{_position:relative; height:22px; *margin-top:-4px; padding:0 7px; *padding:2px 4px 0; font-size:12px;}
+				
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div> 
+               
+			   
+			                  
+          </div>
+		</div>
+		
+		<!-- // Left content -->
+		
+		<!-- Sidebar -->
+		<div id="blog_sidebar"></div>
+		<!-- //Sidebar -->
+		
+		</div>
+		<!-- // Top content -->
+		
+	</div>
+	<!-- // Content wrap -->
+		
+	<!-- Dark Footer -->
+	<div id="dark_footer_wrap">
+		<div id="dark_footer"></div>
+	</div>
+	<!-- // Dark Footer -->
+		
+	<!-- Light Footer -->
+		<div id="light_footer_wrapper">
+			<div id="light_footer">
+				<h4 style="float: left;">© 2010 DANGDANG  |  UI DESIGN TEAM </h4>
+			</div>
+		</div>
+		<!-- // Light Footer -->
+	
+
+
+	
+</body>
+<!-- // Body -->
+
+</html>

@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keyword" content=" " />
+		<meta name="description" content=" " />
+		<meta name="author" content="lonq" />
+		<meta name="copyright" content="eeduol.com" />
+		<title> 圈圈作业 - 网站设计样例库 </title>
+		<link href="images/favicon.ico" type="image/x-icon" rel="icon" />
+		<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="plugins/Font-Awesome-master/css/font-awesome.min.css" rel="stylesheet" />
+		<link href="plugins/google-code-prettify/prettify.min.css" rel="stylesheet" />
+		<!--[if IE 7]>
+		<link href="plugins/Font-Awesome-master/css/font-awesome-ie7.min.css" rel="stylesheet" />
+		<![endif]-->
+		<link href="css/normalize.min.css" rel="stylesheet" />
+		<link href="css/global.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/style-app.css" rel="stylesheet" />
+		<script src="plugins/modernizr.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="plugins/html5shiv/html5shiv.min.js"></script>
+		<script src="plugins/html5shiv/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body onload="prettyPrint()">
+		<!-- start 顶部 -->
+		<div id="header" class="navbar navbar-default" role="navigation">
+		</div>
+		<!-- end 顶部 -->
+		<!-- start 面包屑 -->
+		<div class="container-full">
+			<div class="container">
+				<ol class="text-muted breadcrumb">
+					<span>您现在的位置：</span>
+					<li class="active">首页</li>
+				</ol>
+			</div>
+		</div><!-- end 面包屑 -->
+		<div class="container">
+			<div class="row">
+				<!-- start 主容器 -->
+				<div class="container-main col-md-9" role="main">
+					<div class="panel panel1 panel-default">
+						<h3 class="panel-heading">
+							项目资料
+						</h3>
+						<div class="panel-body">
+							<h3>项目名称：</h3>
+							<p>圈圈作业 v1.01</p>
+							<hr />
+							<h3>html5怎样调用手机摄像头或者相册：</h3>
+							<p><input type="file" accept="video/*;capture=camcorder"> 
+								<input type="file" accept="audio/*;capture=microphone">
+								<input type="file" accept="image/*;capture=camera">直接调用相机
+								<input type="file" accept="image/*" />调用相机 图片或者相册
+							</p>
+							<hr />
+							<h3>项目静态文件访问地址：</h3>
+							<p><a href="http://192.168.2.205/oozuoye-100/" target="_blank">http://192.168.2.205/oozuoye-100/</a></p>
+							<hr />
+							<h3>项目静态文件svn地址：</h3>
+							<p>\\31.设计书\01_正式版设计书\圈圈作业V1.0.0\02.圈圈作业教师端作业\HTML</p>
+							<div class="timer-box">
+								<span class="timer" data-from="0" data-to="3862" data-speed="2000" data-refresh-interval="50">0000</span>
+							</div>
+						</div>
+						<div class="panel-body">
+							<div class="embed-responsive embed-responsive-16by9">
+								<video controls width="420" poster="uploadfiles/Wildlife.jpg">
+									<source src="uploadfiles/Wildlife.mp4" type="video/mp4">
+									<source src="uploadfiles/Wildlife.ogg" type="video/ogg">
+									Fallback code if video isn't supported
+								</video>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel2 panel-default">
+						<h3 class="panel-heading">
+							项目前端技术说明
+						</h3>
+						<div class="panel-body">
+							<h3>文档类型：</h3>
+							<p>html5</p>
+							<hr />
+							<h3>Javascript插件：</h3>
+							<p>jQuery v1.11.1</p>
+							<h4>官方网址</h4>
+							<p><a href="http://jquery.com/" target="_blank">http://jquery.com/</a></p>
+							<hr />
+							<h3>技术框架：</h3>
+							<p>Bootstrap v3.3.4</p>
+							<h4>官方网址</h4>
+							<p><a href="http://v3.bootcss.com/getting-started/" target="_blank">http://v3.bootcss.com/getting-started/</a></p>
+							<div class="table-responsive">
+								<table id="dataTable" class="table table-bordered table-condensed table-hover table-striped">
+								  <thead>
+									<tr>
+									  <th></th>
+									  <th>Chrome</th>
+									  <th>Firefox</th>
+									  <th>Internet Explorer</th>
+									  <th>Opera</th>
+									  <th>Safari</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <th>Android</th>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td rowspan="3" align="center">N/A</td>
+									  <td><span aria-hidden="true"> </span> 不支持</td>
+									  <td>N/A</td>
+									</tr>
+									<tr>
+									  <th>iOS</th>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td>N/A</td>
+									  <td><span aria-hidden="true"> </span> 不支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									</tr>
+									<tr>
+									  <th>Mac OS X</th>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									</tr>
+									<tr>
+									  <th>Windows</th>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 支持</td>
+									  <td><span aria-hidden="true"> </span> 不支持</td>
+									</tr>
+								  </tbody>
+								</table>
+							</div>
+							<h4>IE 兼容模式</h4>
+							<p>Bootstrap 不支持 IE 古老的兼容模式。为了让 IE 浏览器运行最新的渲染模式下，建议将此  <code>&lt;meta&gt;</code>  标签加入到你的页面中：</p>
+							<!-- CoolFormat Source Formatter http://blog.csdn.net/akof1314 --><div style="width:100%;border:1px #e3e3e3 solid;"><div style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;border-bottom:1px solid #e3e3e3;margin-top:5px;color:#000000;">&nbsp;HTML Code&nbsp;</div><table style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;vertical-align:text-top;line-height:15px;" border="0" cellspacing="0" cellpadding="0"><tr><td style="color:#008284;background-color:#e3e3e3;vertical-align:text-top;"><div style="margin:7px;text-align:right;white-space:nowrap;"><nobr>1<br></nobr></div></td><td style="background-color:#008284;padding:1px;"><div style="border:1px #008284 solid;"></div></td><td style="background-color:#efefef;width:100%;vertical-align:text-top;color:#000000;"><div style="margin:7px;"><span style="color:#0000ff;">&lt;meta</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">http-equiv</span><span style="color:#000000;">=</span><span style="color:#800000;">"X-UA-Compatible"</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">content</span><span style="color:#000000;">=</span><span style="color:#800000;">"IE=edge,chrome=1"</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">/&gt;</span></div></td></tr></table></div>
+							<h4>浏览器内核控制</h4>
+							<p>国内浏览器很多都是双内核（webkit和Trident），webkit内核高速浏览，IE内核兼容网页和旧版网站。简易实用webkit内核。</p>
+							<!-- CoolFormat Source Formatter http://blog.csdn.net/akof1314 --><div style="width:100%;border:1px #e3e3e3 solid;"><div style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;border-bottom:1px solid #e3e3e3;margin-top:5px;color:#000000;">&nbsp;HTML Code&nbsp;</div><table style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;vertical-align:text-top;line-height:15px;" border="0" cellspacing="0" cellpadding="0"><tr><td style="color:#008284;background-color:#e3e3e3;vertical-align:text-top;"><div style="margin:7px;text-align:right;white-space:nowrap;"><nobr>1<br></nobr></div></td><td style="background-color:#008284;padding:1px;"><div style="border:1px #008284 solid;"></div></td><td style="background-color:#efefef;width:100%;vertical-align:text-top;color:#000000;"><div style="margin:7px;"><span style="color:#0000ff;">&lt;meta</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">name</span><span style="color:#000000;">=</span><span style="color:#800000;">"renderer"</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">content</span><span style="color:#000000;">=</span><span style="color:#800000;">"webkit"</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">/&gt;</span></div></td></tr></table></div>
+							<h4>栅格参数</h4>
+							<p>通过下表可以详细查看 Bootstrap 的栅格系统是如何在多种屏幕设备上工作的。</p>
+							<div class="table-responsive">
+								<table id="dataTable" class="table table-bordered table-condensed table-hover table-striped">
+								  <thead>
+									<tr>
+									  <th></th>
+									  <th>超小屏幕 手机 (&lt;768px)</th>
+									  <th>小屏幕 平板 (≥768px)</th>
+									  <th>中等屏幕 桌面显示器 (≥992px)</th>
+									  <th>大屏幕 大桌面显示器 (≥1200px)</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <th>栅格系统行为</th>
+									  <td>总是水平排列</td>
+									  <td colspan="3">开始是堆叠在一起的，当大于这些阈值时将变为水平排列C</td>
+									</tr>
+									<tr>
+									  <th>.container 最大宽度</th>
+									  <td>None （自动）</td>
+									  <td>750px</td>
+									  <td>970px</td>
+									  <td>1170px</td>
+									</tr>
+									<tr>
+									  <th>类前缀</th>
+									  <td>.col-xs-</td>
+									  <td>.col-sm-</td>
+									  <td>.col-md-</td>
+									  <td>.col-lg-</td>
+									</tr>
+									<tr>
+									  <th>列（column）数</th>
+									  <td colspan="4">12</td>
+									</tr>
+									<tr>
+									  <th>最大列（column）宽</th>
+									  <td>自动</td>
+									  <td>~62px</td>
+									  <td>~81px</td>
+									  <td>~97px</td>
+									</tr>
+									<tr>
+									  <th>槽（gutter）宽</th>
+									  <td colspan="4">30px （每列左右均有 15px）</td>
+									</tr>
+									<tr>
+									  <th>可嵌套</th>
+									  <td colspan="4">是</td>
+									</tr>
+									<tr>
+									  <th>偏移（Offsets）</th>
+									  <td colspan="4">是</td>
+									</tr>
+									<tr>
+									  <th>列排序</th>
+									  <td colspan="4">是</td>
+									</tr>
+								  </tbody>
+								</table>
+							</div>
+							<h4>从堆叠到水平排列</h4>
+							<p>使用单一的一组 <code>.col-md-*</code> 栅格类，就可以创建一个基本的栅格系统，在手机和平板设备上一开始是堆叠在一起的（超小屏幕到小屏幕这一范围），在桌面（中等）屏幕设备上变为水平排列。所有“列（column）必须放在 ” <code>.row</code> 内。</p>
+							<!-- CoolFormat Source Formatter http://blog.csdn.net/akof1314 --><div style="width:100%;border:1px #e3e3e3 solid;"><div style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;border-bottom:1px solid #e3e3e3;margin-top:5px;color:#000000;">&nbsp;HTML Code&nbsp;</div><table style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;vertical-align:text-top;line-height:15px;" border="0" cellspacing="0" cellpadding="0"><tr><td style="color:#008284;background-color:#e3e3e3;vertical-align:text-top;"><div style="margin:7px;text-align:right;white-space:nowrap;"><nobr>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br></nobr></div></td><td style="background-color:#008284;padding:1px;"><div style="border:1px #008284 solid;"></div></td><td style="background-color:#efefef;width:100%;vertical-align:text-top;color:#000000;"><div style="margin:7px;"><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-12&nbsp;col-md-8"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-12&nbsp;.col-md-8</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-6&nbsp;col-md-4"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-6&nbsp;.col-md-4</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-6&nbsp;col-md-4"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-6&nbsp;.col-md-4</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-6&nbsp;col-md-4"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-6&nbsp;.col-md-4</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-6&nbsp;col-md-4"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-6&nbsp;.col-md-4</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-6"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-6</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-xs-6"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-xs-6</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span></div></td></tr></table></div>
+							<h4>列偏移</h4>
+							<p>使用 <code>.col-md-offset-*</code> 类可以将列向右侧偏移。这些类实际是通过使用 <code>*</code> 选择器为当前元素增加了左侧的边距（margin）。例如，<code>.col-md-offset-4</code> 类将 <code>.col-md-4</code> 元素向右侧偏移了4个列（column）的宽度。</p>
+							<!-- CoolFormat Source Formatter http://blog.csdn.net/akof1314 --><div style="width:100%;border:1px #e3e3e3 solid;"><div style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;border-bottom:1px solid #e3e3e3;margin-top:5px;color:#000000;">&nbsp;HTML Code&nbsp;</div><table style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;vertical-align:text-top;line-height:15px;" border="0" cellspacing="0" cellpadding="0"><tr><td style="color:#008284;background-color:#e3e3e3;vertical-align:text-top;"><div style="margin:7px;text-align:right;white-space:nowrap;"><nobr>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br></nobr></div></td><td style="background-color:#008284;padding:1px;"><div style="border:1px #008284 solid;"></div></td><td style="background-color:#efefef;width:100%;vertical-align:text-top;color:#000000;"><div style="margin:7px;"><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-4"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-4</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-4&nbsp;col-md-offset-4"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-4&nbsp;.col-md-offset-4</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-3&nbsp;col-md-offset-3"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-3&nbsp;.col-md-offset-3</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-3&nbsp;col-md-offset-3"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-3&nbsp;.col-md-offset-3</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-6&nbsp;col-md-offset-3"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-6&nbsp;.col-md-offset-3</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span></div></td></tr></table></div>
+							<h4>列排序</h4>
+							<p>通过使用 <code>.col-md-push-*</code> 和 <code>.col-md-pull-*</code> 类就可以很容易的改变列（column）的顺序。</p>
+							<!-- CoolFormat Source Formatter http://blog.csdn.net/akof1314 --><div style="width:100%;border:1px #e3e3e3 solid;"><div style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;border-bottom:1px solid #e3e3e3;margin-top:5px;color:#000000;">&nbsp;HTML Code&nbsp;</div><table style="width:100%;font-family:'Consolas', 'Courier New';font-size:12px;vertical-align:text-top;line-height:15px;" border="0" cellspacing="0" cellpadding="0"><tr><td style="color:#008284;background-color:#e3e3e3;vertical-align:text-top;"><div style="margin:7px;text-align:right;white-space:nowrap;"><nobr>1<br>2<br>3<br>4<br></nobr></div></td><td style="background-color:#008284;padding:1px;"><div style="border:1px #008284 solid;"></div></td><td style="background-color:#efefef;width:100%;vertical-align:text-top;color:#000000;"><div style="margin:7px;"><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"row"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-9&nbsp;col-md-push-3"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-9&nbsp;.col-md-push-3</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff;">&lt;div</span><span style="color:#000000;">&nbsp;</span><span style="color:#0000ff;">class</span><span style="color:#000000;">=</span><span style="color:#800000;">"col-md-3&nbsp;col-md-pull-9"</span><span style="color:#0000ff;">&gt;</span><span style="color:#000000;">.col-md-3&nbsp;.col-md-pull-9</span><span style="color:#0000ff;">&lt;/div&gt;</span><span style="color:#000000;"><BR> </span><span style="color:#0000ff;">&lt;/div&gt;</span></div></td></tr></table></div>							
+							<h4>响应式列重置</h4>
+							<p>即便有上面给出的四组栅格class，你也不免会碰到一些问题，例如，在某些阈值时，某些列可能会出现比别的列高的情况。为了克服这一问题，建议联合使用 <code>.clearfix</code> 和 <a href="#responsive-utilities">响应式工具类</a>。</p>
+							<div class="row show-grid">
+								<div class="col-xs-6 col-sm-3">
+								.col-xs-6 .col-sm-3
+								<br>
+								Resize your viewport or check it out on your phone for an example.
+								</div>
+								<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+								<!-- Add the extra clearfix for only the required viewport -->
+								<div class="clearfix visible-xs-block"></div>
+
+								<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+								<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+							</div>
+							<h4 id="responsive-utilities">响应式工具类</h4>
+							<p>通过单独或联合使用以下列出的类，可以针对不同屏幕尺寸隐藏或显示页面内容。</p>
+							<div class="table-responsive">
+								<table id="dataTable" class="table table-bordered table-condensed table-hover table-striped">
+								<thead>
+								  <tr>
+									<th></th>
+									<th>超小屏幕手机 (&lt;768px)</th>
+									<th>小屏幕平板 (≥768px)</th>
+									<th>中等屏幕桌面 (≥992px)</th>
+									<th>大屏幕桌面 (≥1200px)</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<th>.visible-xs-*</th>
+									<td>可见</td>
+									<td>隐藏</td>
+									<td>隐藏</td>
+									<td>隐藏</td>
+								  </tr>
+								  <tr>
+									<th>.visible-sm-*</th>
+									<td>隐藏</td>
+									<td>可见</td>
+									<td>隐藏</td>
+									<td>隐藏</td>
+								  </tr>
+								  <tr>
+									<th>.visible-md-*</th>
+									<td>隐藏</td>
+									<td>隐藏</td>
+									<td>可见</td>
+									<td>隐藏</td>
+								  </tr>
+								  <tr>
+									<th>.visible-lg-*</th>
+									<td>隐藏</td>
+									<td>隐藏</td>
+									<td>隐藏</td>
+									<td>可见</td>
+								  </tr>
+								  <tr>
+									<th>.hidden-xs</th>
+									<td>隐藏</td>
+									<td>可见</td>
+									<td>可见</td>
+									<td>可见</td>
+								  </tr>
+								  <tr>
+									<th>.hidden-sm</th>
+									<td>可见</td>
+									<td>隐藏</td>
+									<td>可见</td>
+									<td>可见</td>
+								  </tr>
+								  <tr>
+									<th>.hidden-md</th>
+									<td>可见</td>
+									<td>可见</td>
+									<td>隐藏</td>
+									<td>可见</td>
+								  </tr>
+								  <tr>
+									<th>.hidden-lg</th>
+									<td>可见</td>
+									<td>可见</td>
+									<td>可见</td>
+									<td>隐藏</td>
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
+							<p>从 v3.2.0 版本起，形如 <code>.visible-*-*</code> 的类针对每种屏幕大小都有了三种变体，每个针对 CSS 中不同的 display 属性，列表如下：</p>
+							<div class="table-responsive">
+								<table id="dataTable" class="table table-bordered table-condensed table-hover table-striped">
+								<thead>
+								  <tr>
+									<th>类组</th>
+									<th>CSS display</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<th>.visible-*-block</th>
+									<td>display: block;</td>
+								  </tr>
+								  <tr>
+									<th>.visible-*-inline</th>
+									<td>display: inline;</td>
+								  </tr>
+								  <tr>
+									<th>.visible-*-inline-block</th>
+									<td>display: inline-block;</td>
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
+							<p>因此，以超小屏幕（xs）为例，可用的 <code>.visible-*-*</code> 类是：<code>.visible-xs-block</code>、<code>.visible-xs-inline</code> 和<code>.visible-xs-inline-block</code>。</p>
+							<p><code>.visible-xs</code>、<code>.visible-sm</code>、<code>.visible-md</code> 和 <code>.visible-lg</code> 类也同时存在。但是<strong>从 v3.2.0 版本开始不再建议使用</strong>。除了 <code>&lt;table&gt;</code> 相关的元素的特殊情况外，它们与 <code>.visible-*-block</code> 大体相同。</p>
+						</div>
+					</div>
+				</div><!-- end 主容器 -->
+				<!-- start 边栏 -->
+				<div id="sidebar" class="container-sidebar col-md-3" role="complementary">
+				</div><!-- end 边栏 -->
+			</div>
+		</div><!-- end 主体 -->
+		<!-- start 底部 -->
+		<div id="footer" class="container-footer">
+		</div><!-- end 底部 -->
+
+		<script src="plugins/jquery.min.js"></script>
+		<script src="plugins/google-code-prettify/prettify.min.js"></script>
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="plugins/jquery.scrollUp.min.js"></script>
+		<script src="plugins/jquery.countTo.js"></script>
+		<script src="plugins/common.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		
+		
+		
+		$(document).ready(function(){
+		
+			var maxScrollTop = 300;
+
+			// 向下滚动到据顶部超过1000px时，回到顶部
+			$(window).scroll( maxScrollTop, function(event){
+				var $me = $(this);
+				$("#app-tool").text($me.scrollTop());
+				if( $me.scrollTop() > event.data ){
+					//$me.scrollTop( 0 );
+					$('.timer').each(count);
+				}
+			});
+
+      // custom formatting example
+			
+      function count(options) {
+        var $this = $(this);
+        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+        $this.countTo(options);
+      }
+		});
+		//]]>
+		</script>
+	</body>
+</html>

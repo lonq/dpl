@@ -1,0 +1,23 @@
+.imageFrame{
+	width: 240px;
+	position: relative;
+	margin: 10px auto;
+	border: 5px solid #ccc;
+	background:rgba(0,0,0,0.3);
+}
+.imageFrame input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	background: none;
+	width: 100%;
+	height:100%;
+}
+.imageFrame input[type="file"]{
+	opacity:0;
+}
+.imageFrame img{
+	width: 100%;
+	display: block;
+}

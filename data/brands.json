@@ -1,0 +1,100 @@
+{
+	"brands": [
+		{
+			"catID"			: "2",
+			"catName"		: "广告",
+			"name"			: "搜狐财经品牌广告",
+			"linkUrl"		: "brands-adv-001.html",
+			"thumbSmall": "uploadfiles/adv-list-001-small.jpg",
+			"thumb"			: "uploadfiles/adv-list-001.jpg"
+		},
+		{
+			"catID"			: "3",
+			"catName"		: "画册",
+			"name"			: "中国建筑研究院",
+			"linkUrl"		: "brands-paintings-002.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "3",
+			"catName"		: "画册",
+			"name"			: "澳际留学宣传册",
+			"linkUrl"		: "brands-paintings-003.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "2",
+			"catName"		: "广告",
+			"name"			: "万达院线系列广告",
+			"linkUrl"		: "brands-adv-002.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "4",
+			"catName"		: "会展活动",
+			"name"			: "金菩嘉系列设计",
+			"linkUrl"		: "brands-exhibition-001.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "3",
+			"catName"		: "画册",
+			"name"			: "APEC电子商务工商联盟",
+			"linkUrl"		: "brands-paintings-004.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "3",
+			"catName"		: "画册",
+			"name"			: "响马帮",
+			"linkUrl"		: "brands-paintings-005.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "1",
+			"catName"		: "品牌VI",
+			"name"			: "贝亿医疗VI系统",
+			"linkUrl"		: "brands-vi-001.html",
+			"thumbSmall": "uploadfiles/vi-list-001-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-001.jpg"
+		},
+		{
+			"catID"			: "1",
+			"catName"		: "品牌VI",
+			"name"			: "国家核电标志设计",
+			"linkUrl"		: "brands-vi-002.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "3",
+			"catName"		: "画册",
+			"name"			: "中国银行企业内刊",
+			"linkUrl"		: "brands-paintings-006.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "3",
+			"catName"		: "画册",
+			"name"			: "棒约翰产品手册",
+			"linkUrl"		: "brands-paintings-007.html",
+			"thumbSmall": "uploadfiles/vi-list-002-small.jpg",
+			"thumb"			: "uploadfiles/vi-list-002.jpg"
+		},
+		{
+			"catID"			: "5",
+			"catName"		: "其他",
+			"name"			: "墨轩马卡龙包装设计",
+			"linkUrl"		: "brands-other-001.html",
+			"thumbSmall": "uploadfiles/other-list-001-small.jpg",
+			"thumb"		  : "uploadfiles/other-list-001.jpg"
+		}
+	]
+}

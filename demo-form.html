@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keyword" content=" " />
+		<meta name="description" content=" " />
+		<meta name="author" content="lonq" />
+		<meta name="copyright" content="eeduol.com" />
+		<title> 圈圈作业 - 网站设计样例库 </title>
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="plugins/Font-Awesome-master/css/font-awesome.min.css" rel="stylesheet" />
+		<!--[if IE 7]>
+		<link href="plugins/Font-Awesome-master/css/font-awesome-ie7.min.css" rel="stylesheet" />
+		<![endif]-->
+		<link href="css/normalize.min.css" rel="stylesheet" />
+		<link href="css/global.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/style-app.css" rel="stylesheet" />
+		<link href="plugins/bootstrap-daterangepicker-master/daterangepicker-bs3.css" rel="stylesheet">
+		<script src="plugins/modernizr.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="plugins/html5shiv/html5shiv.min.js"></script>
+		<script src="plugins/html5shiv/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- start 顶部 -->
+		<div id="header" class="navbar navbar-default" role="navigation">
+		</div>
+		<!-- end 顶部 -->
+		<!-- start 面包屑 -->
+		<div class="container-full">
+			<div class="container">
+				<ol class="text-muted breadcrumb">
+					<span>您现在的位置：</span>
+					<li><a href="index.html">首页</a></li>
+					<li class="active">表单</li>
+				</ol>
+			</div>
+		</div><!-- end 面包屑 -->
+		<div class="container">
+			<div class="row">
+				<!-- start 主容器 -->
+				<div class="container-main col-md-9" role="main">
+					<!-- start form -->
+					<form action="#" class="form-horizontal" id="mainForm" role="form">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="text-primary fw-600 panel-title">表单</h3>
+							</div>
+							<div class="panel-body">
+								
+								
+								<div class="form-group">
+									<label for="username" class="control-label col-lg-2">账号：</label>
+									<div class="col-lg-10">
+										<input class="form-control" type="text" id="username" name="username" placeholder="请输入账号">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="usersex" class="control-label col-lg-2">性别：</label>
+									<div class="col-lg-10">
+										<div class="no-padding">
+											<label class="radio-inline">
+												<input type="radio" id="usersex1" name="usersex" value="option1" checked> 保密
+											</label>
+											<label class="radio-inline">
+												<input type="radio" id="usersex2" name="usersex" value="option2"> 男
+											</label>
+											<label class="radio-inline">
+												<input type="radio" id="usersex3" name="usersex" value="option2"> 女
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="interest" class="control-label col-lg-2">性别：</label>
+									<div class="col-lg-10">
+										<div class="no-padding" data-toggle="buttons">
+											<label class="active btn btn-default">
+												<input type="radio" id="usersex11" name="usersex1" value="option1"> 保密
+											</label>
+											<label class="btn btn-default">
+												<input type="radio" id="usersex12" name="usersex1" value="option2"> 男
+											</label>
+											<label class="btn btn-default">
+												<input type="radio" id="usersex13" name="usersex1" value="option2"> 女
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="interest" class="control-label col-lg-2">判断：</label>
+									<div class="col-lg-10">
+										<div class="no-padding btn-group" data-toggle="buttons">
+											<label class="active btn btn-default">
+												<input type="radio" id="usersex21" name="usersex2" value="option1"> ON
+											</label>
+											<label class="btn btn-default">
+												<input type="radio" id="usersex22" name="usersex2" value="option2"> OFF
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="interest" class="control-label col-lg-2">兴趣爱好：</label>
+									<div class="col-lg-10">
+										<div class="no-padding">
+											<label class="checkbox-inline">
+												<input type="checkbox" id="inlineCheckbox1" name="interest" value="option1"> 吃饭
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" id="inlineCheckbox2" name="interest" value="option2"> 睡觉
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" id="inlineCheckbox3" name="interest" value="option3"> 打豆豆
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="interest" class="control-label col-lg-2">兴趣爱好：</label>
+									<div class="col-lg-10">
+										<div class="no-padding" data-toggle="buttons">
+											<label class="active btn btn-default">
+												<input type="checkbox" id="inlineCheckbox11" name="interest1" value="option1"> 吃饭
+											</label>
+											<label class="btn btn-default">
+												<input type="checkbox" id="inlineCheckbox12" name="interest1" value="option2"> 睡觉
+											</label>
+											<label class="btn btn-default">
+												<input type="checkbox" id="inlineCheckbox13" name="interest1" value="option3"> 打豆豆
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email" class="control-label col-lg-2">邮箱：</label>
+									<div class="col-lg-10">
+										<input class="form-control" type="text" id="email" name="email" placeholder="请输入邮箱">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="date" class="control-label col-lg-2">时间段：</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="datetimepicker" type="text" id="date" name="date" placeholder="请输入时间，例：2015-02-10 15:29 - 2015-02-10 16:29" autocomplete="off">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="num" class="control-label col-lg-2">文本框按钮组：</label>
+									<div class="col-lg-10">
+										<div class="no-padding">
+											<div id="customize-spinner" class="input-group spinner" data-trigger="spinner">
+												<span class="input-group-btn">
+													<button class="btn btn-default" type="button" data-spin="down"><i class="fa fa-minus" title="减少"></i></button>
+												</span>
+												<input type="text" class="form-control" id="num" name="num" value="0" data-min="0" data-step="1" autocomplete="off">
+												<span class="input-group-btn">
+													<button class="btn btn-default" type="button" data-spin="up"><i class="fa fa-plus" title="增加"></i></button>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="sport" class="control-label col-lg-2">学科/年级：</label>
+									<div class="col-lg-10">
+										<div class="no-padding form-inline">
+											<select name="sport" id="sport" class="form-control">
+												<option value="">请选择学科</option>
+												<option value="option1">语文</option>
+												<option value="option2">数学</option>
+											</select>
+											<select name="sport2" id="sport2" class="form-control">
+												<option value="">请选择年级</option>
+												<option value="option1">一年级</option>
+												<option value="option2">二年级</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password_old" class="control-label col-lg-2">旧密码：</label>
+									<div class="col-lg-10">
+										<input class="form-control" type="password" id="password_old" name="password_old" placeholder="请输入当前密码">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password" class="control-label col-lg-2">新密码：</label>
+									<div class="col-lg-10">
+										<input class="form-control" type="password" id="password" name="password" placeholder="请输入新密码">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="confirm_password" class="control-label col-lg-2">确认新密码：</label>
+									<div class="col-lg-10">
+										<input class="form-control" type="password" id="confirm_password" name="confirm_password" placeholder="请确认新密码">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="remark" class="control-label col-lg-2">备注：</label>
+									<div class="col-lg-10">
+										<textarea class="form-control" id="remark" name="remark" placeholder="请输入备注"></textarea>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="agree" class="control-label col-lg-2">&nbsp;</label>
+									<div class="col-lg-10">
+										<div class="no-padding checkbox">
+											<label>
+												<input type="checkbox" id="agree" name="agree"> 同意<a class="text-primary" href="#" data-toggle="modal" data-target="#agreement">《圈圈作业用户协议》</a>
+											</label>
+										</div>
+									</div>
+								</div>
+								
+								
+							</div>
+							<div class="panel-footer">
+								<div class="no-margin form-group">
+									<div class="col-lg-offset-2 col-lg-10">
+										<input id="okBtn" name="okBtn" type="submit" class="btn btn-primary btn-lg" value="确定">
+										<input id="reset" name="reset" type="reset" class="btn btn-default btn-lg" value="重新填写">
+									</div>
+								</div>
+							</div>
+						</div>
+					</form><!-- end form -->
+				</div><!-- end 主容器 -->
+				<!-- start 边栏 -->
+				<div id="sidebar" class="container-sidebar col-md-3" role="complementary">
+				</div><!-- end 边栏 -->
+			</div>
+		</div><!-- end 主体 -->
+		<!-- start 底部 -->
+		<div id="footer" class="container-footer">
+		</div><!-- end 底部 -->
+<!-- start : modal -->
+<div id="agreement" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="agreementLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">圈圈作业用户协议</h4>
+			</div>
+			<div class="modal-body">
+				<h4>一、总则</h4>
+				<p>1.1 圈圈作业的所有权和运营权归北京清大世纪教育投资顾问有限公司所有。</p>
+				<p>1.2 用户在注册圈圈作业之前，请仔细地阅读以下各项条款，最后请在浏览完毕后点击“同意”，表示您同意接受本协议所约定之一切依法保障之权利与义务后方可成为注册用户。一旦注册成功，则用户与圈圈作业之间自动达成本协议约定的条款，用户应当受本协议的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用。</p>
+				<p>1.3 本协议则可由圈圈作业随时更新，用户应当及时关注并决定自己的立场。用户登录使用本网站，表明其愿意接受更新内容。本网站的通知、公告、声明或其它类似内容是本协议的一部分。</p>
+				<h4>二、服务内容</h4>
+				<p>2.1 圈圈作业的具体内容由本网站根据实际情况提供。</p>
+				<p>2.2 本网站仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如个人电脑、手机、及其他与接入互联网或移动网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费)均应由用户自行负担。</p>
+				<h4>三、用户帐号</h4>
+				<p>3.1 经本网站注册系统完成注册程序并通过身份认证的用户即成为正式用户，可以获得本网站规定用户所应享有的一切权限；未经认证仅享有本网站规定的部分权限。圈圈作业有权对用户的权限设计进行变更。</p>
+				<p>3.2 用户只能按照注册要求使用真实姓名及身份证号注册。用户有义务保证密码和帐号的安全，一切凭借账号和密码进行的操作均视为用户本人操作。用户利用该密码和帐号所进行的一切活动引起的任何损失或损害，由用户自行承担全部责任，本站不承担任何责任。如用户发现帐号遭到未授权的使用或发生其他任何安全问题，应立即修改帐号密码并妥善保管，如有必要，请通知本网站。因黑客行为或用户的保管疏忽导致帐号非法使用，本网站不承担任何责任。</p>
+				<h4>四、使用规则</h4>
+				<p>4.1 遵守中华人民共和国相关法律法规，包括但不限于《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释(法释[2004]1号)》、《全国人大常委会关于维护互联网安全的决定》、《互联网电子公告服务管理规定》、《互联网新闻信息服务管理规定》、《互联网著作权行政保护办法》和《信息网络传播权保护条例》等有关计算机互联网和知识产权规定的法律和法规、实施办法。</p>
+				<p>4.2 用户对其自行发表、上传或传送的内容负全部责任，并不得在本网站任何页面发布、转载、传送含有下列内容之一的信息，否则本站有权自行处理并不通知用户：</p>
+				<p>(1)违反宪法确定的基本原则的；</p>
+				<p>(2)危害国家安全，泄漏国家机密，颠覆国家政权，破坏国家统一的；</p>
+				<p>(3)损害国家荣誉和利益的；</p>
+				<p>(4)煽动民族仇恨、民族歧视，破坏民族团结的；</p>
+				<p>(5)破坏国家宗教政策，宣扬邪教和封建迷信的；</p>
+				<p>(6)散布谣言，扰乱社会秩序，破坏社会稳定的；</p>
+				<p>(7)散布淫秽、色情、赌博、暴力、恐怖或者教唆犯罪的；</p>
+				<p>(8)侮辱或者诽谤他人，侵害他人合法权益的；</p>
+				<p>(9)煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的；</p>
+				<p>(10)以非法民间组织名义活动的；</p>
+				<p>(11)含有法律、行政法规禁止的其他内容的。</p>
+				<p>4.3 用户承诺对其发表或者上传于本网站的所有信息(即属于《中华人民共和国著作权法》规定的作品，包括但不限于文字、图片、音乐、电影、表演和录音录像制品和电脑程序等)均享有完整的知识产权，或者已经得到相关权利人的合法授权；如用户违反本条规定造成本网站被第三人索赔的，用户应全额补偿本网站一切费用(包括但不限于各种赔偿费、诉讼代理费及为此支出的其它合理费用)；</p>
+				<p>4.4 当第三方认为用户发表或者上传于本网站的信息侵犯其权利，并根据《信息网络传播权保护条例》或者相关法律规定向本网站发送权利通知书时，用户同意本网站可以自行判断决定删除涉嫌侵权信息，除非用户提交书面证据材料排除侵权的可能性，否则本网站将不会自动恢复上述删除的信息；</p>
+				<p>4.5 如用户在使用网络服务时违反下述任何规定，本网站有权要求用户改正或直接采取一切必要的措施(包括但不限于删除用户张贴的内容、暂停或终止用户使用网络服务的权利)以减轻用户不当行为而造成的影响：</p>
+				<p>(1)不得为任何非法目的而使用网络服务系统；</p>
+				<p>(2)遵守所有与网络服务有关的网络协议、规定和程序； </p>
+				<p>(3)不得利用本网站进行任何可能对互联网的正常运转造成不利影响的行为；</p>
+				<p>(4)不得利用本网站进行任何不利于本网站的行为。</p>
+				<h4>五、隐私保护</h4>
+				<p>5.1 本网站不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在本站的非公开内容，但下列情况除外：</p>
+				<p>(1)事先获得用户的明确授权；</p>
+				<p>(2)根据有关的法律法规要求或按照相关政府主管部门的要求</p>
+				<p>(3)依照本网站合法服务程序规定，或为维护本网站（或公司）的著作权、商标权、专利权及其他任何合法权益；</p>
+				<p>(4)为维护用户或社会公众的合法利益。</p>
+				<p>5.2 本站可能会与第三方合作向用户提供相关的网络服务，在此情况下，如该第三方同意承担与本站同等的保护用户隐私的责任，则本站有权将用户的注册资料等提供给该第三方。</p>
+				<p>5.3 在不透露单个用户隐私资料的前提下，本站有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。</p>
+				<p>5.4本网站有权通过透露合计用户统计数据，向未来的合作伙伴、广告商及其他第三方以及为了其他合法目的而描述本网站的服务。</p>
+				<p>5.5本网站有权向用户发送关于本网站（公司）不同产品和服务的信息或者本网站（公司）认为用户会感兴趣的其他产品和服务。如果用户不希望收到这样的邮件，只需在提供个人信息时或其他任何时候告知本网站（公司）即可。</p>
+				<p>5.6本网站会竭尽全力保护用户的信息，但本网站不能确信或保证任何个人信息的安全性，用户须自己承担风险。</p>
+				<h4>六、版权声明</h4>
+				<p>6.1 本网站的文字、图片、音频、视频等版权均归北京清大世纪教育投资顾问有限公司/或其关联公司享有或与作者共同享有，未经本网站的合法许可，用户或其他人不得任意转载。</p>
+				<p>6.2 本网站特有的标识、版面设计、编排方式等版权均属北京清大世纪教育投资顾问有限公司/或其关联公司享有，未经本网站的合法许可，用户或其他人不得任意复制或转载。</p>
+				<p>6.3 使用本网站的任何内容均应注明“来源于圈圈作业”及署上作者姓名，按法律规定需要支付稿酬的，应当通知本网站及作者及支付稿酬，并独立承担一切法律责任。</p>
+				<p>6.4 本网站享有所有作品用于其它用途的优先权，包括但不限于网站、电子杂志、平面出版等，但在使用前会通知作者，并按同行业的标准支付稿酬。</p>
+				<p>6.5 本网站所有内容仅代表作者自己的立场和观点，与本网站无关，由作者本人承担一切法律责任。</p>
+				<p>6.6 恶意转载本网站内容的，本网站保留将其诉诸法律的权利。</p>
+				<h4>七、责任声明</h4>
+				<p>7.1 用户明确同意其使用本网站网络服务所存在的风险及一切后果将完全由用户本人承担，圈圈作业对此不承担任何责任。</p>
+				<p>7.2 本网站不保证网络服务一定能满足用户的要求，也不保证网络服务的及时性、安全性、准确性。</p>
+				<p>7.3 本网站不保证为方便用户而设置的外部链接的准确性和完整性，同时，对于该等外部链接指向的不由本网站实际控制的任何网页上的内容，本网站不承担任何责任。</p>
+				<p>7.4 对于因不可抗力或本网站不能控制的原因造成的网络服务中断或其它缺陷，本网站不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。</p>
+				<p>7.5 对于本网站向用户提供的下列产品或者服务的质量缺陷本身及其引发的任何损失，本网站无需承担任何责任：</p>
+				<p>(1)本网站向用户免费提供的各项网络服务；</p>
+				<p>(2)本网站向用户赠送的任何产品或者服务。</p>
+				<p>7.6 本网站有权于任何时间暂时或永久修改或终止本服务(或其任何部分)，而无论其通知与否，本网站（公司）对用户和任何第三人均无需承担任何责任。</p>
+				<h4>八、附则</h4>
+				<p>8.1 本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律法规。与本协议有关的争议提交由本公司注册所在地的法院管辖。</p>
+				<p>8.2 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。</p>
+				<p>8.3 本协议解释权及修订权归北京清大世纪教育投资顾问有限公司所有。</p>
+				<p>特别提示：您在进行注册之前，请确保您本人已经完全理解并接受本协议所有条款（尤其是责任声明条款），否则请谨慎注册。一旦您正式注册，则表明您已经完全理解并接受本协议所有条款，尤其是隐私保护、版权声明和责任声明条款。</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" id="okModalBtn" class="btn btn-primary" data-dismiss="modal">同意</button>
+			<button type="button" id="cancelModalBtn" class="btn btn-default" data-dismiss="modal">不同意</button>
+			</div>
+		</div>
+	</div>
+</div><!-- end : modal -->
+		<script src="plugins/jquery.min.js"></script>
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="plugins/wInput.js"></script>
+		<script src="plugins/jquery.scrollUp.min.js"></script>
+		<script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="plugins/jquery-validation/dist/localization/messages_zh.min.js"></script>
+		<script src="plugins/bootstrap-daterangepicker-master/moment.min.js"></script>
+		<script src="plugins/bootstrap-daterangepicker-master/daterangepicker.js"></script>
+		<script src="plugins/jquery.spinner.min.js"></script>
+		<script src="plugins/common.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		$(document).ready(function(){
+			//兼容表单控件提示，模拟placeholder
+			$("input:text, input:password, textarea").wInput();
+			//时间选择器
+			$('#datetimepicker').daterangepicker({
+				timePicker: true,
+				timePickerIncrement: 30,
+				format: 'YYYY-MM-DD h:mm'
+			}, function(start, end, label) {
+				console.log(start.toISOString(), end.toISOString(), label);
+			});
+			//正整数
+			$('#customize-spinner').spinner();
+			//定义表单相关类
+			var controlWidth = "col-lg-8";				//表单控件的类（宽度）
+			var controlTipsWidth = "col-lg-4";		//表单提示的类（宽度）
+
+			var formID = "#mainForm";							//表单ID名
+			var controlGroup = ".panel-body";			//表单控件组的识别容器，用于识别需要加载样式的容器
+			var controlRow = ".form-group";				//表单控件行（包括label）的父容器
+			var controlWrap = ".col-lg-10";				//表单控件（不包括label）的直接父容器，与标签的宽度配合，例：".col-lg-2"
+			var $form = $(""+ formID +"");				//表单对象
+			
+			var agreeBtn = $("#agree");
+			var okBtn = $("#okBtn");
+			var okModalBtn = $("#okModalBtn");
+			var cancelModalBtn = $("#cancelModalBtn");
+			//同意阅读条款
+			var agreeBtnChecked = agreeBtn.is(":checked");
+			var okBtnStatus = $("#okBtn").attr("disabled", !agreeBtnChecked);
+			agreeBtn.click(function() {
+				okBtnStatus.attr("disabled", !this.checked);
+			});
+			//查看阅读条款
+			okModalBtn.click(function () {
+				agreeBtn.prop("checked","checked");
+				okBtn.removeAttr("disabled");
+			});
+			cancelModalBtn.click(function () {
+				agreeBtn.removeAttr("checked");
+				okBtn.prop("disabled","true");
+			});
+			//设置表单各元素的宽度及样式，如果加载缓慢，出现页面布局紊乱，请手动添加类
+			$form.find(""+ controlGroup +" "+ controlRow +" "+ controlWrap +"" ).each(function(){
+				$(this).children().addClass(controlWidth);
+			});
+			//表单验证
+			var $validator = $form.validate({
+				errorClass: "help-block " + controlTipsWidth,
+				errorElement: "span",
+				errorPlacement: function(error, element) {
+					error.appendTo(element.parents(controlWrap));	//插入表单提示
+				},
+				highlight: function(element, errorClass, validClass) {
+					$(element).parents(""+ controlRow +"").removeClass("has-success").addClass("has-error");	//错误高亮
+				},
+				unhighlight: function(element, errorClass, validClass) {
+					$(element).parents(""+ controlRow +"").removeClass("has-error").addClass("has-success");	//成功高亮
+				},
+				success: function(label) {
+					label.text("输入正确！");
+				},
+				rules: {
+					username: {
+						required: true,
+						minlength: 2,
+						maxlength: 18
+					},
+					usersex: {
+						required: true
+					},
+					interest: {
+						required: true
+					},
+					email: {
+						required: true,
+						email: true
+					},
+					date: {
+						required: true
+					},
+					num: {
+						number: true
+					},
+					sport: {
+						required: true
+					},
+					password_old: {
+						required: true,
+						minlength: 5
+					},
+					password: {
+						required: true,
+						minlength: 5
+					},
+					confirm_password: {
+						required: true,
+						minlength: 5,
+						equalTo: "#password"
+					},
+					remark: {
+						required: true,
+						minlength: 2
+					},
+					agree: {
+						required: true
+					}
+				},
+				messages: {
+					username: {
+						required: "请输入账号",
+						minlength: "最少两个字符"
+					},
+					usersex: {
+						required: "请选择性别"
+					},
+					interest: {
+						required: "请选择兴趣爱好"
+					},
+					email: {
+						required: "请输入邮件地址"
+					},
+					date: {
+						required: "请输入日期"
+					},
+					num: {
+						required: "请输入正整数"
+					},
+					sport: {
+						required: "请选择学科/年级"
+					},
+					password_old: {
+						required: "请输入旧密码"
+					},
+					password: {
+						required: "请输入密码"
+					},
+					confirm_password: {
+						required: "请再次输入密码",
+						minlength: "最少五个字符",
+						equalTo: "两次输入的密码不一致"
+					},
+					remark: {
+						required: "请输入备注",
+						minlength: "最少两个字符"
+					},
+					agree: {
+						required: "请先阅读“《圈圈作业用户协议》”"
+					}
+				}
+			});
+			//表单重置
+			$("input[type='reset'], .reset").click(function() {
+				$validator.resetForm();
+				$form.find(""+ controlRow +"").removeClass("has-error has-success");
+				agreeBtn.removeAttr("checked");
+				okBtn.attr("disabled","true");
+			});
+
+		});
+		//]]>
+		</script>
+
+	</body>
+</html>

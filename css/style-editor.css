@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+.sidebar-left ul li a {
+	display: block;
+}
+#imgList a.thumbnail {
+	position: relative;
+}
+#imgList a.thumbnail .img-mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	z-index: 9998;
+	background-color: rgba(0,0,0,.3);
+}
+#imgList a.thumbnail .img-mask i {
+	position: absolute;
+	right: 13px;
+	bottom: 10px;
+}
+#imgList a.thumbnail.active .img-mask {
+	display: block;
+}
+
+.sidebar-left ul.ui-tabs-nav .ui-state-default .ui-icon-close {
+	display: none;
+}
+.sidebar-left ul.ui-tabs-nav .ui-state-hover .ui-icon-close {
+	display: block;
+}

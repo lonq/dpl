@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keyword" content=" " />
+		<meta name="description" content=" " />
+		<meta name="author" content="lonq" />
+		<meta name="copyright" content="eeduol.com" />
+		<title> 圈圈作业 - 网站设计样例库 </title>
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="plugins/Font-Awesome-master/css/font-awesome.min.css" rel="stylesheet" />
+		<!--[if IE 7]>
+		<link href="plugins/Font-Awesome-master/css/font-awesome-ie7.min.css" rel="stylesheet" />
+		<![endif]-->
+		<link href="css/normalize.min.css" rel="stylesheet" />
+		<link href="css/global.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/style-app.css" rel="stylesheet" />
+		<link href="plugins/star-rating/css/star-rating.min.css" rel="stylesheet" />
+		<script src="plugins/modernizr.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="plugins/html5shiv/html5shiv.min.js"></script>
+		<script src="plugins/html5shiv/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- start 顶部 -->
+		<div id="header" class="navbar navbar-default" role="navigation">
+		</div>
+		<!-- end 顶部 -->
+		<!-- start 面包屑 -->
+		<div class="container-full">
+			<div class="container">
+				<ol class="text-muted breadcrumb">
+					<span>您现在的位置：</span>
+					<li><a href="index.html">首页</a></li>
+					<li class="active">列表页</li>
+				</ol>
+			</div>
+		</div><!-- end 面包屑 -->
+		<div class="container">
+			<div class="row">
+				<!-- start 主容器 -->
+				<div class="container-main col-md-9" role="main">
+
+					<div class="panel panel-default">
+						<h3 class="panel-heading">
+							列表页
+						</h3>
+						<div class="panel-filter panel-body">
+							<dl class="dl-horizontal dl-horizontal-width-4 more-list">
+								<dt>省：</dt>
+								<dd>
+									<a rel="1" name="f1" class="select-btn active" href="javascript: void(0);">全部</a>
+									<a rel="2" name="f1" class="select-btn" href="javascript: void(0);">河北省</a>
+								</dd>
+							</dl>
+							<dl class="dl-horizontal dl-horizontal-width-4 more-list">
+								<dt>市区：</dt>
+								<dd>
+									<a rel="1" name="f2" class="select-btn active" href="javascript: void(0);">全部</a>
+									<a rel="2" name="f2" class="select-btn" href="javascript: void(0);">石家庄市</a>
+									<a rel="3" name="f2" class="select-btn" href="javascript: void(0);">唐山市</a>
+									<a rel="4" name="f2" class="select-btn" href="javascript: void(0);">秦皇岛市</a>
+									<a rel="5" name="f2" class="select-btn" href="javascript: void(0);">邯郸市</a>
+									<a rel="6" name="f2" class="select-btn" href="javascript: void(0);">邢台市</a>
+									<a rel="7" name="f2" class="select-btn" href="javascript: void(0);">保定市</a>
+									<a rel="8" name="f2" class="select-btn" href="javascript: void(0);">张家口市</a>
+									<a rel="9" name="f2" class="select-btn" href="javascript: void(0);">承德市</a>
+									<a rel="10" name="f2" class="select-btn" href="javascript: void(0);">沧州市</a>
+									<a rel="11" name="f2" class="select-btn" href="javascript: void(0);">廊坊市</a>
+									<a rel="12" name="f2" class="select-btn" href="javascript: void(0);">衡水市</a>
+									<a rel="13" name="f2" class="select-btn" href="javascript: void(0);">衡水市1</a>
+									<a rel="14" name="f2" class="select-btn" href="javascript: void(0);">衡水市2</a>
+									<a rel="15" name="f2" class="select-btn" href="javascript: void(0);">衡水市3</a>
+								</dd>
+							</dl>
+							<dl class="dl-horizontal dl-horizontal-width-4 filter-result">
+								<dt>筛选结果：</dt>
+								<dd><a class="clear-result label label-default" href="#"><i class="fa fa-undo"></i> 重置筛选条件</a></dd>
+							</dl>
+						</div>
+						
+						<div class="row filter-controls clearfix">
+							<div class="controls-left dropdown col-xs-12 col-sm-12 col-md-6 col-lg-6">
+								<a class="dropdown-toggle" href="javascript: void(0);" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">批量操作 <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+									<li><a href="#">删除</a></li>
+									<li class="divider"></li>
+									<li><a href="#">标记为已读</a></li>
+									<li><a href="#">取消标记</a></li>
+								</ul>
+								<span class="padding-left-10">共找到 <strong class="text-danger">9527</strong> 道试题</span>
+							</div>
+							<div class="controls-right col-xs-12 col-sm-12 col-md-6 col-lg-6">
+								<a href="#" title="下一页"><i class="fa fa-chevron-right"></i></a>
+								<a href="#" title="上一页"><i class="fa fa-chevron-left"></i></a>
+								<a class="analysis-btn" href="javascript: void(0);" title="隐藏答案及解析"><i class="fa fa-eye-slash"></i></a>
+								<a id="searchBtn" href="javascript: void(0);" title="搜索"><i class="fa fa-search" title="搜索"></i></a>
+							</div>
+						</div>
+
+						<!-- start 列表循环 -->
+						<div class="list-box panel-body">
+							<div class="list-item">
+								<div class="list-title row">
+									<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+										<div class="title checkbox">
+											<label class="">
+												<input type="checkbox" value="1" checked> <strong>让我们以志向为矛、以坚韧为弓，持之以恒的捶打命运这堵厚实冰冷的墙。</strong>
+												<small class="badge">单选</small>
+												<small class="badge">5分</small>
+											</label>
+										</div>
+									</div>
+									<ul class="button list-inline col-xs-12 col-sm-5 col-md-5 col-lg-5">
+										<li>错误率：<strong class="text-danger">27%</strong></li>
+										<li>使用次数：<strong class="text-danger">63</strong> 次</li>
+									</ul>
+								</div>
+								<div class="list-content overflow-hidden clearfix">
+									<dl class="list-tag">
+										<dt>学科：</dt><dd>语文</dd>
+										<dt>年级：</dt><dd>一年级</dd>
+										<dt>难度：</dt><dd><div class="show-score" title="评分：40000分"><div class="rating-container rating-gly-star" data-content=""><div class="rating-stars" data-content="" style="width: 90%;"></div></div></div></dd>
+										<dt>创建时间：</dt><dd>2014/12/03 17:00</dd>
+
+									</dl>
+									<h5>下列词语没有错别字的一项是（ ）</h5>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> A. 他的温声细语在耳边流淌，仿佛阳光穿透浓荫，撒下异地的色彩斑澜。
+										</label>
+									</div>
+
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> B. 让我们以志向为矛、以坚韧为弓，持之以恒的捶打命运这堵厚实冰冷的墙。
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> C. 读书可以不求甚解，但是不可以潦草应付；可咬文嚼字，但不可吹毛求次。
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> D. 一阵暖风熏过，花儿们抖落一冬的沉闷，相互拥抱嘻闹。
+										</label>
+									</div>
+									<div class="clearfix">
+										<ul class="pull-left list-inline">
+											<li><label class="text-muted">标签：</label></li>
+											<li><a class="text-muted btn btn-link btn-xs" href="#">标签一</a></li>
+											<li><a class="text-muted btn btn-link btn-xs" href="#">标签二</a></li>
+										</ul>
+										<ul class="pull-right list-inline">
+											<li class="thumbs-btn btn-group"><a class="text-muted btn btn-link btn-xs" href="javascript: void(0);"><i class="fa fa-thumbs-o-up"></i> 顶 <strong class="text-danger">112</strong></a><a class="text-muted btn btn-link btn-xs" href="javascript: void(0);"><i class="fa fa-thumbs-o-down"></i> 踩 1</a></li>
+											<li><input class="collection-value" type="hidden" value="0" /><a class="collection-btn text-muted btn btn-link btn-xs" href="javascript: void(0);"><i class="fa fa-heart"></i> 收藏</a></li>
+										</ul>
+									</div>
+									<dl class="alert analysis-content dl-horizontal dl-horizontal-width-2 bs-callout bs-callout-info">
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<dt>答案：</dt>
+										<dd>B</dd>
+										<dt>解析：</dt>
+										<dd>试题分析：错别字，主要是因音同或形似而错，掌握这个易错点，就根据汉字的特点，结合词义字义辨析判断。用反选排除法，有错就排除。A“澜”为“斓”，C“次”为“疵”D“嘻”为“嬉”，答案为B。</dd>
+									</dl>
+								</div>
+							</div><!-- end 列表循环 -->
+
+							<!-- start 列表循环 -->
+							<div class="list-item">
+								<div class="list-title row">
+									<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+										<div class="title checkbox">
+											<label class="">
+												<input type="checkbox" value="1" checked> <strong>第2题</strong>
+												<small class="badge">单选</small>
+												<small class="badge">5分</small>
+											</label>
+										</div>
+									</div>
+									<ul class="button list-inline col-xs-12 col-sm-6 col-md-6 col-lg-6">
+										<li>错误率：<strong class="text-danger">27%</strong></li>
+										<li>使用次数：<strong class="text-danger">63</strong> 次</li>
+									</ul>
+								</div>
+								<div class="list-content overflow-hidden clearfix">
+									<dl class="list-tag">
+										<dt>学科：</dt><dd>语文</dd>
+										<dt>年级：</dt><dd>一年级</dd>
+										<dt>难度：</dt><dd><div class="show-score" title="评分：40000分"><div class="rating-container rating-gly-star" data-content=""><div class="rating-stars" data-content="" style="width: 90%;"></div></div></div></dd>
+										<dt>创建时间：</dt><dd>2014/12/03 17:00</dd>
+
+									</dl>
+									<h5>下列词语没有错别字的一项是（ ）</h5>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> A. 他的温声细语在耳边流淌，仿佛阳光穿透浓荫，撒下异地的色彩斑澜。
+										</label>
+									</div>
+
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> B. 让我们以志向为矛、以坚韧为弓，持之以恒的捶打命运这堵厚实冰冷的墙。
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> C. 读书可以不求甚解，但是不可以潦草应付；可咬文嚼字，但不可吹毛求次。
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> D. 一阵暖风熏过，花儿们抖落一冬的沉闷，相互拥抱嘻闹。
+										</label>
+									</div>
+									<div class="clearfix">
+										<ul class="pull-left list-inline">
+											<li><label class="text-muted">标签：</label></li>
+											<li><a class="text-muted btn btn-link btn-xs" href="#">标签一</a></li>
+											<li><a class="text-muted btn btn-link btn-xs" href="#">标签二</a></li>
+										</ul>
+										<ul class="pull-right list-inline">
+											<li class="thumbs-btn btn-group"><a class="text-muted btn btn-link btn-xs disabled" href="javascript: void(0);"><i class="fa fa-thumbs-o-up"></i> 顶 <strong class="text-danger">112</strong></a><a class="text-muted btn btn-link btn-xs disabled" href="javascript: void(0);"><i class="fa fa-thumbs-o-down"></i> 踩 1</a></li>
+											<li><input class="collection-value" type="hidden" value="1" /><a class="collection-btn text-muted btn btn-link btn-xs" href="javascript: void(0);"><i class="fa fa-heart"></i> 取消收藏</a></li>
+										</ul>
+									</div>
+									<dl class="alert analysis-content dl-horizontal dl-horizontal-width-2 bs-callout bs-callout-info">
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<dt>答案：</dt>
+										<dd>B</dd>
+										<dt>解析：</dt>
+										<dd>试题分析：错别字，主要是因音同或形似而错，掌握这个易错点，就根据汉字的特点，结合词义字义辨析判断。用反选排除法，有错就排除。A“澜”为“斓”，C“次”为“疵”D“嘻”为“嬉”，答案为B。</dd>
+									</dl>
+								</div>
+							</div>
+						</div><!-- end 列表循环 -->
+
+						<div class="text-right panel-footer">
+							<ul class="pagination">
+								<li class="disabled"><a href="#">首页</a></li>
+								<li class="disabled"><a href="#">上页</a></li>
+								<li class="active"><a href="#">1 <span class="sr-only">(current)</span> </a></li>
+								<li class="hidden-xs"><a href="#">2</a></li>
+								<li class="hidden-xs"><a href="#">3</a></li>
+								<li class="hidden-xs"><a href="#">4</a></li>
+								<li class="hidden-xs"><a href="#">5</a></li>
+								<li><a href="#">下页</a></li>
+								<li><a href="#">尾页</a></li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div><!-- end 主容器 -->
+				<!-- start 边栏 -->
+				<div id="sidebar" class="container-sidebar col-md-3" role="complementary">
+				</div><!-- end 边栏 -->
+			</div>
+		</div><!-- end 主体 -->
+		<!-- start 底部 -->
+		<div id="footer" class="container-footer">
+		</div><!-- end 底部 -->
+
+		<script src="plugins/jquery.min.js"></script>
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="plugins/wInput.js"></script>
+		<script src="plugins/jquery.scrollUp.min.js"></script>
+		<script src="plugins/jquery.filter.js"></script>
+		<script src="plugins/common.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		$(document).ready(function(){
+			//兼容表单控件提示，模拟placeholder
+			$("input:text, input:password, textarea").wInput();
+			//显示答案及解析
+			$(".analysis-btn").click(function(){
+				if($(".analysis-content").is(":visible")){
+					$(".analysis-btn").html("<i class='fa fa-eye'></i>").attr("title", "显示答案及解析");
+					$(".analysis-content").hide();
+				}else{
+					$(".analysis-btn").html("<i class='fa fa-eye-slash'></i>").attr("title", "隐藏答案及解析");
+					$(".analysis-content").show();
+				}
+			});
+			$(".thumbs-btn").click(function(){
+				$(this).find("a").addClass("disabled");
+			});
+			//收藏
+			var t1 = 1;
+			$(".collection-btn").click(function(){
+				if(t1 == 1){
+					$(this).html("<i class='fa fa-heart'></i> 取消收藏");
+					t1++;
+				}else{
+					$(this).html("<i class='fa fa-heart'></i> 收藏");
+					t1--;
+				}
+			});
+			$(".controls-right #searchBtn").popover({ trigger: "click", html: true, container: ".controls-right", placement: "bottom", content: "<form><div class='input-group'><input type='text' class='form-control' placeholder='请输入关键词...'><span class='input-group-btn'><button type='button' id='searchBtn' class='btn btn-warning'><i class='fa fa-search'></i></button></span></div></form>" });
+			//筛选
+			//更多
+			$(".panel-filter .more-list").each(function(e){
+				var height = $(this).find("dd").height();
+				if (height > 23){
+					$(this).find("dd").css({"height" : "23px", "overflow" : "hidden"}).prepend("<span class='pull-right more cursor-pointer' href='javascript: void(0);'>更多 <i class='fa fa-angle-down'></i></span>");
+				}
+				var count=1;
+				$(this).find("dd .more").click(function(){
+					if(count==1){
+						$(this).html("收起 <i class='fa fa-angle-up'></i>").parent().css({"height" : "auto", "overflow" : "auto"});
+						count++;
+					}else{
+						$(this).html("更多 <i class='fa fa-angle-down'></i>").parent().css({"height" : "23px", "overflow" : "hidden"});
+						count--;
+					}
+				});
+			});
+			$('.more-list').sx({
+				nuv: ".filter-result",			//筛选结果
+				zi: "select-btn",						//所有筛选范围内的子类
+				qingchu: '.clear-result',		//清除全部
+				over: 'active'							//选中状态样式名称
+			});
+
+		});
+		//]]>
+		</script>
+
+	</body>
+</html>

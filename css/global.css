@@ -1,0 +1,507 @@
+﻿@charset "utf-8";
+/*!
+* Created by the Lonq in 2014/12/10. 
+*/
+
+/* 解决Windows 8 中的 Internet Explorer 10 和 Windows Phone 8媒体查询并不能很好的发挥作用问题，需配合js。 */
+@-webkit-viewport {width: device-width;}
+@-moz-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
+
+/* 全局框架 */
+.container-full {
+	margin: 0;
+	padding: 0;
+}
+.container-main {
+}
+.container-sidebar {
+}
+.container-header {
+}
+.container-footer {
+	margin: 0;
+	padding: 20px 0;
+	background-color: #ffffff;
+}
+/* 全局样式 */
+body {
+	color: #333333;
+	background-color: #f2f2f2;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.fw-400 {
+	font-weight: 400;
+}
+.fw-600 {
+	font-weight: 600;
+}
+small {
+	font-size: 87.5%;
+}
+label,
+.label {
+	font-weight: normal;
+}
+.box-shadow {
+	margin-bottom: 20px;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(221, 221, 221, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(221, 221, 221, 0.6);
+}
+.list-inline-btn>.btn,
+.list-inline-btn>.btn-group {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.list-inline-href {
+}
+.list-inline-href > a {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	line-height: inherit;
+}
+.list-inline-href > a:last-child {
+	margin-right: 0;
+}
+.no-margin {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.no-border {
+	border: 0;
+}
+.transparent-border {
+	border-color: transparent;
+}
+.margin {
+	margin: 10px;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+.margin-right-10 {
+	margin-right: 10px;
+}
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+.no-margin-left {
+	margin-left: 0;
+}
+.margin-left-10 {
+	margin-left: 10px;
+}
+.margin-right-bottom-10 {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.padding {
+	padding: 10px;
+}
+.padding-horizontal {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.padding-vertical {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.padding-top-10 {
+	padding-top: 10px;
+}
+.padding-right-10 {
+	padding-right: 10px;
+}
+.padding-bottom-10 {
+	padding-bottom: 10px;
+}
+.no-padding-left {
+	padding-left: 0;
+}
+.padding-left-10 {
+	padding-left: 10px;
+}
+.border-solid, hr.solid {
+	border-top: 1px solid #ddd;
+}
+.border-solid-bottom {
+	border-bottom: 1px solid #ddd;
+}
+.border-dotted, hr.dotted {
+	border-top: 1px dotted #ddd;
+}
+.vertical-center, .vertical-center:focus {
+	/*padding-left: 0;*/
+	text-align: left;
+	cursor: default;
+	outline: none;
+	-moz-outline: none;
+}
+.text-line-through {
+	text-decoration: line-through;
+}
+a, button, input, label {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.img-scale:hover > img {
+	transform: scale(1.5, 1.5);
+	transition: .3s transform;
+}
+.text-primary,
+.text-primary a,
+a.text-primary,
+a.text-primary:link,
+a.text-primary:visited {
+	color: #31b0d5;
+}
+.text-primary a:hover,
+a.text-primary:hover,
+a.text-primary:active {
+	color: #4c8fbd;
+	text-decoration: none;
+}
+.text-black,
+.text-black a,
+a.text-black,
+a.text-black:link,
+a.text-black:visited {
+	color: #333;
+	text-decoration: none;
+}
+.text-black a:hover,
+a.text-black:hover,
+a.text-black:active {
+	color: #000;
+	text-decoration: none;
+}
+.text-white,
+.text-white a,
+a.text-white,
+a.text-white:link,
+a.text-white:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.text-white a:hover,
+a.text-white:hover,
+a.text-white:active {
+	color: #fff;
+	text-decoration: none;
+}
+.text-muted,
+.text-muted a,
+a.text-muted,
+a.text-muted:link,
+a.text-muted:visited {
+	color: #aaa;
+	text-decoration: none;
+}
+.text-muted a:hover,
+a.text-muted:hover,
+a.text-muted:active {
+	color: #333;
+	text-decoration: none;
+}
+.bg-default {
+	color: #fff;
+	background-color: #777;
+}
+.badge-highlight {
+	background-color: #c9302c;
+}
+
+/* 360度旋转 */
+@keyframes rotate {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+@-moz-keyframes rotate {
+	from {-moz-transform: rotate(0deg); /* Firefox */}
+	to {-moz-transform: rotate(360deg); /* Firefox */}
+}
+@-webkit-keyframes rotate {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg); /* Safari 和 Chrome */}
+}
+@-o-keyframes rotate {
+	from {-o-transform: rotate(0deg); /* Opera */}
+	to {-o-transform: rotate(360deg); /* Opera */}
+}
+.animation-spinner {
+	animation-name: rotate;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-moz-animation-name: rotate;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-name: rotate;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-o-animation-name: rotate;
+	-o-animation-duration: 1.5s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+}
+/* 表单前置图标 */
+.custom-form-control-icon .form-control-feedback {
+	left: 15px;
+}
+.custom-form-control-icon .form-control {
+	padding-left: 30px;
+}
+form .form-group .help-block {
+	margin: 0;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+}
+/* 表单前置图标 */
+.auto-tip {
+	margin: 0 16px;
+	padding: 0;
+	list-style: none;
+}
+/* wInput 模拟placeholder */
+.wInput-theme-classic::-webkit-input-placeholder {
+	color: #acacac;
+}
+.wInput-theme-classic:-moz-placeholder {
+	color: #acacac;
+}
+.wInput-theme-classic::-moz-placeholder {
+	color: #acacac;
+}
+.wInput-theme-classic:-ms-input-placeholder {
+	color: #acacac;
+}
+.wInput-theme-classic.wInput-placeholder {
+	color: #acacac;
+}
+
+.auto-tip li {
+	margin: 0;
+	padding: 0 10px;
+	list-style: none;
+}
+.auto-tip li {
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	background: #fff;
+}
+.auto-tip li.hoverBg {
+	background: #ddd;
+	cursor: pointer;
+}
+/* 省略号 */
+.ellipsis,
+.ellipsis li,
+.ellipsis li a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* 溢出隐藏 */
+.overflow-hidden {
+	overflow: hidden;
+}
+/* 模态框 */
+/*.modal-content {*/
+/*	border: 4px solid rgba(67,131,188,0.5);*/
+/*}*/
+#msgBoxModal {
+	z-index: 9999;
+}
+.modal .form-group {
+	margin-right: 0;
+	margin-left: 0;
+}
+.modal-content {
+	background-color: #f5f5f5;
+	border: 4px solid rgba(102,102,102,0.5);
+}
+.modal-content .modal-header h4 {
+	font-weight: 600;
+}
+.modal-content .modal-body {
+	background-color: #fff;
+}
+
+/* 面板 */
+.panel {
+	/* background-color: #f5f5f5; */
+}
+.panel .panel-body {
+	background-color: #fff;
+}
+/* 列表分割线 */
+.list-custom-margin > li {
+	margin: 0 0 20px;
+}
+.list-custom-solid > li {
+	border-bottom: 1px solid #ddd;
+}
+.list-custom-dotted > li {
+	border-bottom: 1px dotted #ddd;
+}
+.list-custom-solid > li:last-child, .list-custom-dotted > li:last-child {
+	margin: 0;
+	border-bottom: 0;
+}
+/* 边框颜色 */
+.border-default {
+	border-color: #666;
+}
+.border-primary {
+	border-color: #21bbff;
+}
+.border-success {
+	border-color: #5cb85c;
+}
+.border-info {
+	border-color: #5bc0de;
+}
+.border-warning {
+	border-color: #f0ad4e;
+}
+.border-danger {
+	border-color: #d9534f;
+}
+/* float-tool */
+.float-tool {
+	position: fixed;
+	right: 10px;
+	bottom: 135px;
+}
+.float-tool a {
+	display: block;
+	margin: 0 2px 5px;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-moz-border-radius: 3px;
+	line-height: 40px;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+.float-tool a:hover {
+	color: #fff;
+	background: rgba(49,176,213,1);
+}
+.float-tool #paper-tool {
+	position: relative;
+}
+.float-tool #paper-tool sup {
+	position: absolute;
+	top: -3px;
+	left: -10px;
+}
+/* 透明度 */
+.alpha-0 {
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+.alpha-1 {
+	filter:alpha(opacity=1);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.alpha-2 {
+	filter:alpha(opacity=20);
+	-moz-opacity: .2;
+	opacity: .2;
+}
+.alpha-3 {
+	filter:alpha(opacity=30);
+	-moz-opacity: .3;
+	opacity: .3;
+}
+.alpha-4 {
+	filter:alpha(opacity=40);
+	-moz-opacity: .4;
+	opacity: .4;
+}
+.alpha-5 {
+	filter:alpha(opacity=50);
+	-moz-opacity: .5;
+	opacity: .5;
+}
+.alpha-6 {
+	filter:alpha(opacity=60);
+	-moz-opacity: .5;
+	opacity: .6;
+}
+.alpha-7 {
+	filter:alpha(opacity=70);
+	-moz-opacity: .7;
+	opacity: .7;
+}
+.alpha-8 {
+	filter:alpha(opacity=80);
+	-moz-opacity: .8;
+	opacity: .8;
+}
+.alpha-9 {
+	filter:alpha(opacity=90);
+	-moz-opacity: .9;
+	opacity: .9;
+}
+/* 元素描述 */
+.bs-callout {
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.bs-callout code {
+	border-radius: 3px;
+}
+
+.bs-callout+.bs-callout {
+	margin-top: -5px;
+}
+
+.bs-callout-danger {
+	border-left-color: #c9302c;
+}
+
+.bs-callout-danger h4 {
+	color: #c9302c;
+}
+
+.bs-callout-warning {
+	border-left-color: #ec971f;
+}
+
+.bs-callout-warning h4 {
+	color: #ec971f;
+}
+
+.bs-callout-info {
+	border-left-color: #31b0d5;
+}
+
+.bs-callout-info h4 {
+	color: #31b0d5;
+}

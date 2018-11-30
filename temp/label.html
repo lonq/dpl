@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>DangDang - Design Pattern Library</title>
+       
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="version" content="1.0" />
+    <meta name="copyright" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This file is part of a site template for sale at ThemeForest.net.
+         See: http://themeforest.net/user/ddstudios/portfolio
+         Copyright 2009 Dany Duchaine <ddwebstudios@hotmail.com> -->
+    
+    <!-- CSS-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- //CSS -->
+	
+	<!-- Javascript-->
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>
+	<script type="text/javascript">
+    	$(function(){
+			$('#blog_sidebar').load('sidebar.html');		
+		});
+		    
+    </script>
+
+	<!-- Javascript-->
+
+</head>
+<!-- // head -->
+
+<!-- Body -->
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+	
+	</div>
+	<!-- // Header -->
+
+	<!-- Top text -->
+	<div id="text_wrap">
+		<div id="top_text_sub">	
+			<div class="title">
+				<h1><a href="index.html">DANGDANG DPL</a></h1>
+		  </div>
+			<div class="description">
+				<p>UI TEAM Design Pattern Library</p>
+			</div> 
+		</div>
+	</div>
+	<!-- // Top text -->
+		
+	<!-- Content wrap -->	
+	<div id="content_wrap">
+		
+		<!-- Top content -->
+		<div id="blog_content">
+		
+		<!-- Left content -->
+		<div id="left_content_about_blog">
+			<div class="blog_post">
+				<h2><a class="girds_title" href="#">Popup</a></h2>
+                <div class="girds_line1"></div>
+				<h3 class="text_title">&middot; demo</h3>
+				
+				<div>
+					<img src="images/label_demo1.jpg" />
+				</div>
+							
+				<h3 class="text_title">&middot; html/css demo</h3>
+           <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;div class="promo_sales_panel"&gt;
+	&lt;div class="listitem hover"&gt;
+		&lt;div class="pic"&gt;
+			&lt;a href="#" title="商品全名称"&gt;&lt;img src="images/temp/pic_sales_150x150.jpg" /&gt;&lt;/a&gt;
+			&lt;div class="overlay"&gt;&lt;/div&gt;&lt;div class="overlay1"&gt;
+			&lt;a href="#" title="商品全名称"&gt;一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十&lt;/a&gt;
+			&lt;/div&gt;&lt;a class="icon" href="#" style="background:url(http://img4.ddimg.cn/00030/brand/icon_descend_20110118.png) no-repeat 0 0; _background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img4.ddimg.cn/00030/brand/icon_descend_20110118.png',sizingMethod='noscale');"&gt;&lt;span&gt;1.59&lt;/span&gt;&lt;/a&gt;
+		&lt;/div&gt;								
+	&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+.promo_sales_panel {border:2px solid #ffc3c9;border-top:0;float:left;display:inline;height:388px;overflow:hidden;padding:0 10px;width:631px;}
+.promo_sales_panel .listitem {display:inline;float:left;height:150px;margin:15px 29px 0;overflow:hidden;width:150px;padding:1px;}
+.promo_sales_panel .hover {border:1px solid #ec3c3c;padding:0;} 
+.promo_sales_panel .listitem .pic {height:150px;position:relative;width:150px;}
+.promo_sales_panel .listitem .pic a {display:block;width:150px;height:150px;overflow:hidden;text-align:center;}
+.promo_sales_panel .listitem .overlay,.promo_sales_panel .listitem .overlay1 {position:absolute; bottom:0; left:0;height:25px; width:150px;overflow:hidden;text-align:left;z-index:300;}
+.promo_sales_panel .listitem .overlay {background-image:url(../images/overlay_bg.png); *filter:alpha(opacity=35); *background:#000;}
+.promo_sales_panel .listitem .overlay1 a {color:#fff;display:block;height:18px;overflow:hidden;margin:4px 0 3px;padding:0 15px;width:120px;z-index:300;}
+.promo_sales_panel .listitem .overlay1 a:hover {text-decoration:underline;}
+.promo_sales_panel .hover .overlay {background-image:url(../images/overlay_bg_hover.png); *filter:alpha(opacity=90); *background:#ed706f;}
+.promo_sales_panel .listitem .pic .icon,.promo_sales_panel .listitem .pic a.icon:hover {color:#fff;font-family:Arial;font-weight:bold;height:30px;overflow:hidden;padding-top:20px;position:absolute;right:0;text-align:center;top:0;text-decoration:none;width:50px;}
+.promo_sales_panel .listitem .pic .icon span {cursor:pointer;display:inline-block;height:15px;overflow:hidden;text-align:center;width:24px;}
+.promo_sales_panel .listitem .pic .img {border:2px solid #ffcbcd;bottom:25px;height:54px;overflow:hidden;position:absolute;right:0;text-align:center;width:54px;z-index:100;}
+.promo_sales_panel .listitem .pic .present {background:url(http://img4.ddimg.cn/00030/brand/present_20110112.png) no-repeat 0 0;height:14px;overflow:hidden;position:absolute;top:2px;right:2px;width:14px; _background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://img4.ddimg.cn/00030/brand/present_20110112.png",sizingMethod="noscale");}
+			
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div> 
+               
+			   
+			                  
+          </div>
+		</div>
+		
+		<!-- // Left content -->
+		
+		<!-- Sidebar -->
+		<div id="blog_sidebar"></div>
+		<!-- //Sidebar -->
+		
+		</div>
+		<!-- // Top content -->
+		
+	</div>
+	<!-- // Content wrap -->
+		
+	<!-- Dark Footer -->
+	<div id="dark_footer_wrap">
+		<div id="dark_footer"></div>
+	</div>
+	<!-- // Dark Footer -->
+		
+	<!-- Light Footer -->
+		<div id="light_footer_wrapper">
+			<div id="light_footer">
+				<h4 style="float: left;">© 2010 DANGDANG  |  UI DESIGN TEAM </h4>
+			</div>
+		</div>
+		<!-- // Light Footer -->
+	
+
+
+	
+</body>
+<!-- // Body -->
+
+</html>

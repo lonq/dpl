@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>DangDang - Design Pattern Library</title>
+     
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="version" content="1.0" />
+    <meta name="copyright" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This file is part of a site template for sale at ThemeForest.net.
+         See: http://themeforest.net/user/ddstudios/portfolio
+         Copyright 2009 Dany Duchaine <ddwebstudios@hotmail.com> -->
+    
+    <!-- CSS-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- //CSS -->
+	
+	<!-- Javascript-->
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>	
+	 
+	<script type="text/javascript">
+    	$(function(){
+			$('#blog_sidebar').load('sidebar.html');		
+		});		
+    
+    </script>
+
+	<!-- Javascript-->
+
+</head>
+<!-- // head -->
+
+<!-- Body -->
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+	
+	</div>
+	<!-- // Header -->
+
+	<!-- Top text -->
+	<div id="text_wrap">
+		<div id="top_text_sub">	
+			<div class="title">
+				<h1><a href="index.html">DANGDANG DPL</a></h1>
+		  </div>
+			<div class="description">
+				<p>UI TEAM Design Pattern Library</p>
+			</div> 
+		</div>
+	</div>
+	<!-- // Top text -->
+		
+	<!-- Content wrap -->	
+	<div id="content_wrap">
+		
+		<!-- Top content -->
+		<div id="blog_content">
+		
+		<!-- Left content -->
+		<div id="left_content_about_blog">
+			<div class="blog_post">
+				<h2><a class="girds_title" href="#"><strong>information cue</strong></a></h2>
+              <div class="girds_line1"></div>
+                <h3 class="text_title">&middot; note</h3>
+                <p class="text_p" ><span class="text_bold">demo</span></p>
+                <form class="login_form">
+			        <p class="wrong"><label>Email地址：</label><span class="login_form_input"><input name="" type="text" /></span><span class="login_form_wrong"><span>此Email地址已注册，请更换其它地址，或用此Email地址<a href="#">登录</a></span></span></p>
+			        <p class="hint"><label>登录密码：</label><span class="login_form_input"><input name="" type="text" /></span><span class="login_form_hint"><span>密码可由大小写英文字母或数字组成</span><span>长度6-20个字符</span></span></p>
+			         
+			    </form>
+	  <h3 class="text_title">&middot; html/css demo</h3>
+            <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;form class="login_form"&gt;
+    &lt;p class="wrong"&gt;&lt;label&gt;Email地址：&lt;/label&gt;&lt;span class="login_form_input"&gt;&lt;input name="" type="text" /&gt;&lt;/span&gt;&lt;span class="login_form_wrong"&gt;&lt;span&gt;此Email地址已注册，请更换其它地址，或用此Email地址&lt;a href="#"&gt;登录&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;p class="hint"&gt;&lt;label&gt;登录密码：&lt;/label&gt;&lt;span class="login_form_input"&gt;&lt;input name="" type="text" /&gt;&lt;/span&gt;&lt;span class="login_form_hint"&gt;&lt;span&gt;密码可由大小写英文字母或数字组成&lt;/span&gt;&lt;span&gt;长度6-20个字符&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+     
+&lt;/form&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+/*------form------*/
+.login_form{ width:735px; padding-top:20px;color:#404040;font-family:Arial,"宋体";font-size:12px;line-height:20px;}
+.login_form p{ height:46px; width:735px; clear:both;}
+.login_form p *{ display:block; float:left;}
+.login_form p label{ height:34px; padding-top:12px; *height:33px; *padding-top:13px; text-align:right; width:182px; font-size:14px;}
+.login_form_input{ height:21px; width:210px; margin-top:10px; padding:3px 0 0 10px; border-color:#686868 #b6b6b6 #b6b6b6 #686868; border-style:solid; border-width:1px; background:url(../images/bg_login_input.gif) no-repeat 0 0}
+.login_form_input input{ width:200px; border:none; margin:0; background:none; height:19px; font:bold 15px/19px Arial}
+.login_form p a,.login_form p a:hover{ display:inline-block; float:none; color:#1a66b3}
+.login_form p.hint{ background:#edffd5;}
+.login_form p.wrong{ background:#feeec2;}
+.login_form p.wrong .login_form_input{ background:url(../images/bg_login_input2.gif) no-repeat 0 0}
+
+.login_form_hint,.login_form_wrong,.login_form_ok{ width:320px; height:37px; padding:7px 0 0 10px; *height:36px; *padding-top:8px; line-height:33px;}
+.login_form_hint span,.login_form_wrong span{ clear:both; float:none!important; vertical-align:middle; line-height:16px!important;}
+.login_form_hint{ color:#6e932d;}
+.login_form_wrong{ width:167px!important; background:url(../images/bg_login_wrong.gif) no-repeat 3px 4px; color:#c30; padding-left:14px!important; padding-right:2px;}
+.login_form_ok{ background:url(../images/pic_login_ok.gif) no-repeat 7px 17px;}
+			
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div> 
+               	  
+                 
+          </div>
+		</div>
+		
+		<!-- // Left content -->
+		
+		<!-- Sidebar -->
+		<div id="blog_sidebar"></div>
+		<!-- //Sidebar -->
+		
+		</div>
+		<!-- // Top content -->
+		
+	</div>
+	<!-- // Content wrap -->
+		
+	<!-- Dark Footer -->
+	<div id="dark_footer_wrap">
+		<div id="dark_footer"></div>
+	</div>
+	<!-- // Dark Footer -->
+		
+	<!-- Light Footer -->
+		<div id="light_footer_wrapper">
+			<div id="light_footer">
+				<h4 style="float: left;">© 2010 DANGDANG  |  UI DESIGN TEAM </h4>
+			</div>
+		</div>
+		<!-- // Light Footer -->
+	
+
+
+	
+</body>
+<!-- // Body -->
+
+</html>

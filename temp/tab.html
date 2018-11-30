@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>DangDang - Design Pattern Library</title>
+     
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="version" content="1.0" />
+    <meta name="copyright" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This file is part of a site template for sale at ThemeForest.net.
+         See: http://themeforest.net/user/ddstudios/portfolio
+         Copyright 2009 Dany Duchaine <ddwebstudios@hotmail.com> -->
+    
+    <!-- CSS-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- //CSS -->
+	
+	<!-- Javascript-->
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>	
+	 
+	<script type="text/javascript">
+    	$(function(){
+			$('#blog_sidebar').load('sidebar.html');		
+		});		
+    
+    </script>
+
+	<!-- Javascript-->
+
+</head>
+<!-- // head -->
+
+<!-- Body -->
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+	
+	</div>
+	<!-- // Header -->
+
+	<!-- Top text -->
+	<div id="text_wrap">
+		<div id="top_text_sub">	
+			<div class="title">
+				<h1><a href="index.html">DANGDANG DPL</a></h1>
+		  </div>
+			<div class="description">
+				<p>UI TEAM Design Pattern Library</p>
+			</div> 
+		</div>
+	</div>
+	<!-- // Top text -->
+		
+	<!-- Content wrap -->	
+	<div id="content_wrap">
+		
+		<!-- Top content -->
+		<div id="blog_content">
+		
+		<!-- Left content -->
+		<div id="left_content_about_blog">
+			<div class="blog_post">
+				<h2><a class="girds_title" href="#"><strong>information cue</strong></a></h2>
+              <div class="girds_line1"></div>
+                <h3 class="text_title">&middot; note</h3>
+                <p class="text_p" ><span class="text_bold">demo</span></p>
+                <div class="tab">
+				      <h2>
+				        <!--用户关注当前状态
+				        <span class="other">精彩活动</span>
+				        <span class="nonce">用户关注</span>
+				        -->
+				        <span class="other nonce">精彩活动</span>
+				        <span>用户关注</span>
+				      </h2>
+				      <ul>
+				        <li><i>广告</i><span><a href="#"><img src="images/pic_90x90_02.gif" alt="广告关键词" /></a></span></li>
+				        <li><i>广告</i><span><a href="#"><img src="images/pic_90x90_02.gif" alt="广告关键词" /></a></span></li>
+				        <li><i>广告</i><span><a href="#"><img src="images/pic_90x90_02.gif" alt="广告关键词" /></a></span></li>
+				        <li><i>广告</i><span><a href="#"><img src="images/pic_90x90_02.gif" alt="广告关键词" /></a></span></li>
+				      </ul>
+				      <div class="clear"></div>
+				 </div>
+			<h3 class="text_title">&middot; html/css demo</h3>
+            <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;div class="tab"&gt;
+  &lt;h2&gt;
+    &lt;!--用户关注当前状态
+    &lt;span class="other"&gt;精彩活动&lt;/span&gt;
+    &lt;span class="nonce"&gt;用户关注&lt;/span&gt;
+    -->
+    &lt;span class="other nonce"&gt;精彩活动&lt;/span&gt;
+    &lt;span&gt;用户关注&lt;/span&gt;
+  &lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;i&gt;广告&lt;/i&gt;&lt;span&gt;&lt;a href="#"&gt;&lt;img src="images/pic_90x90_02.gif" alt="广告关键词" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;i&gt;广告&lt;/i&gt;&lt;span&gt;&lt;a href="#"&gt;&lt;img src="images/pic_90x90_02.gif" alt="广告关键词" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;i&gt;广告&lt;/i&gt;&lt;span&gt;&lt;a href="#"&gt;&lt;img src="images/pic_90x90_02.gif" alt="广告关键词" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;i&gt;广告&lt;/i&gt;&lt;span&gt;&lt;a href="#"&gt;&lt;img src="images/pic_90x90_02.gif" alt="广告关键词" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+/*tab*/
+.tab{ border:1px solid #e0e0e0; width:228px; margin:10px auto 0; padding-bottom:9px}
+.tab h2{ width:228px; height:32px; font-size:14px; color:#404040}
+.tab h2 span{ display:block; float:left; width:114px; height:23px; padding-top:8px; *height:22px; *padding-top:9px; background:url(../images/tab/bg_ddhome.gif) repeat-x 0 0; text-align:center; cursor:default; border-bottom:1px solid #e0e0e0}
+.tab h2 .other{ width:113px; border-right:1px solid #e0e0e0}
+.tab h2 .nonce{ background:#fff; border-bottom:1px solid #fff; font-weight:bold;}
+.tab ul{ display:block; clear:both; width:227px; padding:0 0 0 1px;}
+.tab ul li{ display:block; float:left; width:92px; height:92px; padding:12px 0 1px 14px; position:relative;}
+.tab ul li span{ display:block; width:90px; height:90px; border:1px solid #e0e0e0; overflow:hidden; text-align:center;}
+.tab ul li i{ display:block; width:20px; height:20px; background:url(../images/tab/cion_ddhome.gif) no-repeat 0 -350px; font-size:0; line-height:60px; overflow:hidden; position:absolute; top:12px; left:14px;}	
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div> 
+               	  
+			<p class="text_p" ><span class="text_bold">demo2</span></p>	  
+				<div class="tab_panel ">	
+			        <a href="#" class="active"><span>图书音像(75)</span></a>
+					<a href="#"><span>图书(75)</span></a>
+					<a href="#" class="none"><span>音乐影视(0)</span></a>
+					<div class="result_count">共搜到<strong>103</strong>个商品</div>			            
+					<div class="clear"></div>
+				</div>
+				  
+							<h3 class="text_title">&middot; html/css demo</h3>
+            <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;div class="tab_panel "&gt;	
+    &lt;a href="#" class="active"&gt;&lt;span&gt;图书音像(75)&lt;/span&gt;&lt;/a&gt;
+	&lt;a href="#"&gt;&lt;span&gt;图书(75)&lt;/span&gt;&lt;/a&gt;
+	&lt;a href="#" class="none"&gt;&lt;span&gt;音乐影视(0)&lt;/span&gt;&lt;/a&gt;
+	&lt;div class="result_count"&gt;共搜到&lt;strong&gt;103&lt;/strong&gt;个商品&lt;/div&gt;			            
+	&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+/*tab_panel*/
+.tab_panel {position:relative;margin-bottom:10px;width:760px;height:28px;font-size:12px;line-height:18px;border-bottom:2px solid #f99439;}
+.tab_panel a {float:left;display:inline;height:28px;margin:0 5px 0 0;background:url(../images/tab.gif) no-repeat right 0;overflow:hidden;text-decoration:none;}
+.tab_panel a span {display:inline-block;height:23px;padding:7px 20px 0;background:url(../images/tab.gif) no-repeat -195px -35px;color:#404040;font-size:14px;*padding:8px 20px 0;*height:22px;}
+.tab_panel a:hover {text-decoration:none;}
+.tab_panel a:hover span{cursor:pointer;}
+.tab_panel a.none span,.tab_panel a.none:hover span{color:#878787;cursor:default;}
+.tab_panel a.active {position:relative;height:30px;background:url(../images/tab.gif) no-repeat right -70px;text-decoration:none;overflow:hidden;cursor:default;z-index:100;margin-bottom:-2px;}
+.tab_panel a.active span{background:url(../images/tab.gif) no-repeat -195px -105px;color:#7c470f;font-weight:bold;cursor:default;}
+.tab_panel a.active:hover span{cursor:default;}
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div>   
+				  
+				  
+                 
+          </div>
+		</div>
+		
+		<!-- // Left content -->
+		
+		<!-- Sidebar -->
+		<div id="blog_sidebar"></div>
+		<!-- //Sidebar -->
+		
+		</div>
+		<!-- // Top content -->
+		
+	</div>
+	<!-- // Content wrap -->
+		
+	<!-- Dark Footer -->
+	<div id="dark_footer_wrap">
+		<div id="dark_footer"></div>
+	</div>
+	<!-- // Dark Footer -->
+		
+	<!-- Light Footer -->
+		<div id="light_footer_wrapper">
+			<div id="light_footer">
+				<h4 style="float: left;">© 2010 DANGDANG  |  UI DESIGN TEAM </h4>
+			</div>
+		</div>
+		<!-- // Light Footer -->
+		
+</body>
+<!-- // Body -->
+
+</html>

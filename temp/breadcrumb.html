@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>DangDang - Design Pattern Library</title>
+       
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="version" content="1.0" />
+    <meta name="copyright" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This file is part of a site template for sale at ThemeForest.net.
+         See: http://themeforest.net/user/ddstudios/portfolio
+         Copyright 2009 Dany Duchaine <ddwebstudios@hotmail.com> -->
+    
+    <!-- CSS-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- //CSS -->
+	
+	<!-- Javascript-->
+	<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script>
+	<script type="text/javascript">
+    	$(function(){
+			$('#blog_sidebar').load('sidebar.html');		
+		});
+		    
+    </script>
+
+	<!-- Javascript-->
+
+</head>
+<!-- // head -->
+
+<!-- Body -->
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+	
+	</div>
+	<!-- // Header -->
+
+	<!-- Top text -->
+	<div id="text_wrap">
+		<div id="top_text_sub">	
+			<div class="title">
+				<h1><a href="index.html">DANGDANG DPL</a></h1>
+		  </div>
+			<div class="description">
+				<p>UI TEAM Design Pattern Library</p>
+			</div> 
+		</div>
+	</div>
+	<!-- // Top text -->
+		
+	<!-- Content wrap -->	
+	<div id="content_wrap">
+		
+		<!-- Top content -->
+		<div id="blog_content">
+		
+		<!-- Left content -->
+		<div id="left_content_about_blog">
+			<div class="blog_post">
+				<h2><a class="girds_title" href="#">Crumbs</a></h2>
+                <div class="girds_line1"></div>
+				<h3 class="text_title">&middot; demo</h3>
+                <div class="breadcrumb">
+					<span class="tip">您现在的位置：</span><a href="#">当当网</a><span>&gt;</span><a href="#">美妆</a><span>&gt;</span><span class="current">护肤</span><div class="clear"></div>
+				</div>
+				<p class="text_p" >
+				字体颜色：链接文字： #1a66b3; 表示当前页面的文字：#666666<br />
+				位置：上边距、下边距：20px</p>
+				<div class="girds_line3"></div>
+				<h3 class="text_title">&middot; html/css code</h3>
+           <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;div class="breadcrumb"&gt
+	&lt;span class="tip"&gt;您现在的位置：&lt;/span&gt;&lt;a href="#"&gt;当当网&lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;a href="#"&gt;美妆&lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="current"&gt;护肤&lt;/span&gt;&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+/* ------ Breadcrumb------ */
+.breadcrumb {color:#404040;font:12px/18px "\5b8b\4f53",Arial; height:18px;overflow:hidden;padding:14px 0;width:960px;padding:15px 0 13px\9;}
+.breadcrumb a{ text-decoration:none; color:#1a66b3; }
+.breadcrumb a:hover{text-decoration:underline}
+.breadcrumb span {color:#404040;padding:0 8px;}
+.breadcrumb .current {color:#666;padding:0;}
+.breadcrumb .keyword {font-size:14px;font-weight:bold;}
+.breadcrumb .tip {padding:0;}				
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div> 
+               
+			   
+			                  
+          </div>
+		  <div class="blog_post">
+				<h3 class="text_title">&middot; demo2</h3>		
+                
+          <div class="breadcrumb clearfix">
+		  		<span class="righttip">浏览<a href="#">小说</a>中的全部商品</span>
+				<a href="#">当当网</a><span>&gt;</span><a href="#">美妆</a><span>&gt;</span><span class="current">护肤</span><span>中搜索			<span class="keyword">杜拉拉</span>找到<em>103</em>件商品</span>
+		  </div>
+
+				<div class="girds_line3"></div>
+				<h3 class="text_title">&middot; html/css demo</h3>
+           <div class="goods_code">
+           		<dl>
+           			<dt>html:</dt>
+					<dd>
+						<pre>
+&lt;div class="breadcrumb clearfix"&gt;
+	&lt;span class="righttip"&gt;浏览&lt;a href="#"&gt;小说&lt;/a&gt;中的全部商&lt;/span&gt;
+	&lt;a href="#"&gt;当当网&lt;/a&gt;&lt;span&gt;&gt;&lt;/spa&gt;&lt;a href="#"&gt;美妆&lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="current"&gt;护肤&lt;/span&gt;&lt;span&gt;中搜索&lt;span class="keyword"&gt;杜拉拉&lt;/span&gt;找到&lt;em&gt;103&lt;/em&gt;件商品&lt;/span&gt;
+&lt;/div&gt;
+						</pre>
+					</dd>
+					<dt>css:</dt>
+					<dd>
+<pre>
+/* ------ Breadcrumb------ */
+.breadcrumb .keyword {font-size:14px;font-weight:bold;}
+.breadcrumb em {color:#c30;font-weight:bold;padding:0 8px;}
+.breadcrumb .righttip {float:right;padding:0;}
+.breadcrumb .righttip a {padding:0 5px;}					
+</pre>
+					</dd>
+           		</dl>
+				
+			
+           </div> 
+                              
+          </div>
+		  
+		</div>
+		
+		<!-- // Left content -->
+		
+		<!-- Sidebar -->
+		<div id="blog_sidebar"></div>
+		<!-- //Sidebar -->
+		
+		</div>
+		<!-- // Top content -->
+		
+	</div>
+	<!-- // Content wrap -->
+		
+	<!-- Dark Footer -->
+	<div id="dark_footer_wrap">
+		<div id="dark_footer"></div>
+	</div>
+	<!-- // Dark Footer -->
+		
+	<!-- Light Footer -->
+		<div id="light_footer_wrapper">
+			<div id="light_footer">
+				<h4 style="float: left;">© 2010 DANGDANG  |  UI DESIGN TEAM </h4>
+			</div>
+		</div>
+		<!-- // Light Footer -->
+	
+
+
+	
+</body>
+<!-- // Body -->
+
+</html>
